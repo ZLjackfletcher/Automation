@@ -1,0 +1,97 @@
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_'))
+
+WebUI.click(findTestObject('Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/p_Cayenne_Beauty_Mode_01'))
+
+WebUI.click(findTestObject('Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_'))
+
+WebUI.click(findTestObject('Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/p_Cayenne_Beauty_Mode_03'))
+
+WebUI.click(findTestObject('Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_'))
+
+WebUI.click(findTestObject('Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/p_Cayenne_Beauty_Mode_04'))
+
+WebUI.click(findTestObject('Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_'))
+
+WebUI.click(findTestObject('Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/p_Cayenne_Beauty_Mode_06'))
+
+WebUI.click(findTestObject('Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_'))
+
+WebUI.click(findTestObject('Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/p_Cayenne_Beauty_Mode_07'))
+
+WebUI.click(findTestObject('Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_'))
+
+WebUI.click(findTestObject('Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/p_Cayenne_Beauty_Mode_09'))
+
+WebUI.click(findTestObject('Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_'))
+
+WebUI.click(findTestObject('Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/p_Cayenne_Beauty_Mode_11'))
+
+WebUI.click(findTestObject('Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_'))
+
+WebUI.click(findTestObject('Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/p_Cayenne_Micro_Site_Footer'))
+
+WebUI.click(findTestObject('Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_'))
+
+WebUI.click(findTestObject('Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/p_Cayenne_Micro_Site_Gallery_0'))
+
+WebUI.click(findTestObject('Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_'))
+
+WebUI.click(findTestObject('Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/p_Cayenne_Micro_Site_Hero'))
+
+WebUI.click(findTestObject('Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_'))
+
+WebUI.click(findTestObject('Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/p_Cayenne_Micro_Site_Stream'))
+
+WebUI.click(findTestObject('Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_'))
+
+WebUI.click(findTestObject('Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/p_Cayenne_Micro_Site_Video'))
+
+WebUI.click(findTestObject('Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_'))
+
+WebUI.click(findTestObject('Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/p_Cayenne_Moodboard_01'))
+
+WebUI.click(findTestObject('Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_'))
+
+WebUI.click(findTestObject('Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/p_Cayenne_Moodboard_02'))
+
+WebUI.click(findTestObject('Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_'))
+
+WebUI.click(findTestObject('Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/p_Cayenne_Moodboard_03'))
+
+WebUI.click(findTestObject('Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_'))
+
+WebUI.click(findTestObject('Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/p_Cayenne_Moodboard_04'))
+
+WebUI.click(findTestObject('Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_'))
+
+WebUI.click(findTestObject('Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/p_Cayenne_Stream_Front'))
+
+WebUI.click(findTestObject('Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_'))
+
+WebUI.click(findTestObject('Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/p_Cayenne_Stream_Rear'))
+
+WebUI.click(findTestObject('Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_'))
+
+WebUI.click(findTestObject('Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/p_Cayenne_Stream_Wheel'))
+
+WebUI.click(findTestObject('Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_'))
+
+WebUI.click(findTestObject('Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/p_GlobalStageCamera'))
+
