@@ -1,0 +1,43 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+brochure,Chrome 71.0.3578.98,,2019-01-24 15:07:14,2019-01-24 15:08:00,46.552s,FAILED
+,,,,,,
+Test Cases/spolight/logging in/login,Chrome 71.0.3578.98,,2019-01-24 15:07:14,2019-01-24 15:07:20,6.622s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-24 15:07:14,2019-01-24 15:07:17,2.967s,PASSED
+"navigateToUrl(""https://spotlightsuite.com/auth/login"")",Chrome 71.0.3578.98,,2019-01-24 15:07:17,2019-01-24 15:07:18,1.155s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-24 15:07:18,2019-01-24 15:07:19,1.142s,PASSED
+waitForPageLoad(0),Chrome 71.0.3578.98,,2019-01-24 15:07:19,2019-01-24 15:07:19,0.055s,PASSED
+"click(findTestObject(""Page_SpotLight  Login/input_Email_undefined-Email-un""))",Chrome 71.0.3578.98,,2019-01-24 15:07:19,2019-01-24 15:07:19,0.114s,PASSED
+"sendKeys(findTestObject(""Page_SpotLight  Login/input_Email_undefined-Email-un""), findTestData(""login spotlight"").getValue(1, 1))",Chrome 71.0.3578.98,,2019-01-24 15:07:19,2019-01-24 15:07:20,0.640s,PASSED
+"click(findTestObject(""Page_SpotLight  Login/input_Password_undefined-Passw""))",Chrome 71.0.3578.98,,2019-01-24 15:07:20,2019-01-24 15:07:20,0.082s,PASSED
+"sendKeys(findTestObject(""Page_SpotLight  Login/input_Password_undefined-Passw""), findTestData(""login spotlight"").getValue(2, 1))",Chrome 71.0.3578.98,,2019-01-24 15:07:20,2019-01-24 15:07:20,0.151s,PASSED
+"click(findTestObject(""Page_SpotLight  Login/input_Forgot my password_Butto""))",Chrome 71.0.3578.98,,2019-01-24 15:07:20,2019-01-24 15:07:20,0.081s,PASSED
+,,,,,,
+Test Cases/spolight/service choice/zlcc stage,Chrome 71.0.3578.98,,2019-01-24 15:07:20,2019-01-24 15:07:22,1.964s,PASSED
+"click(findTestObject(""Page_SpotLight  Login/button_ZLCC Stage""))",Chrome 71.0.3578.98,,2019-01-24 15:07:21,2019-01-24 15:07:21,0.631s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-24 15:07:21,2019-01-24 15:07:22,1.031s,PASSED
+"click(findTestObject(""Services/li_ZLCC Stage""))",Chrome 71.0.3578.98,,2019-01-24 15:07:22,2019-01-24 15:07:22,0.085s,PASSED
+"click(findTestObject(""Page_SpotLight  Login/input_ZLCC Stage_Button__Super""))",Chrome 71.0.3578.98,,2019-01-24 15:07:22,2019-01-24 15:07:22,0.103s,PASSED
+,,,,,,
+Test Cases/spolight/Select Your Application/Bespoke - Brochure,Chrome 71.0.3578.98,,2019-01-24 15:07:22,2019-01-24 15:07:25,2.533s,PASSED
+"click(findTestObject(""pick your apps/Page_SpotLight  Select App - bespoke borchure/a""))",Chrome 71.0.3578.98,,2019-01-24 15:07:23,2019-01-24 15:07:24,1.193s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-24 15:07:24,2019-01-24 15:07:25,1.004s,PASSED
+"click(findTestObject(""pick your apps/Page_SpotLight  Select App - bespoke borchure/button_Open Application""))",Chrome 71.0.3578.98,,2019-01-24 15:07:25,2019-01-24 15:07:25,0.160s,PASSED
+,,,,,,
+Test Cases/spolight/cars/Urus,Chrome 71.0.3578.98,,2019-01-24 15:07:25,2019-01-24 15:07:25,0.315s,PASSED
+"click(findTestObject(""Page_SpotLight  Select Car/div_Urus""))",Chrome 71.0.3578.98,,2019-01-24 15:07:25,2019-01-24 15:07:25,0.180s,PASSED
+,,,,,,
+Test Cases/spolight/Bespoke Brochure Panels/Add to cart/add to Cart,Chrome 71.0.3578.98,,2019-01-24 15:07:25,2019-01-24 15:07:26,0.233s,PASSED
+"waitForElementClickable(findTestObject(""Bespoke_Brochure/add to cart/Page_SpotLight  Bespoke BROCHURE/a_Add to cart""), 0)",Chrome 71.0.3578.98,,2019-01-24 15:07:25,2019-01-24 15:07:25,0.044s,PASSED
+"click(findTestObject(""Bespoke_Brochure/add to cart/Page_SpotLight  Bespoke BROCHURE/a_Add to cart""))",Chrome 71.0.3578.98,,2019-01-24 15:07:25,2019-01-24 15:07:26,0.078s,PASSED
+,,,,,,
+Test Cases/spolight/Bespoke Brochure Panels/Add to cart/Shopping cart,Chrome 71.0.3578.98,,2019-01-24 15:07:26,2019-01-24 15:07:29,3.008s,FAILED
+"waitForElementClickable(findTestObject(""Bespoke Video/shopping cart/Page_SpotLight  Bespoke Video/a_2""), 0)",Chrome 71.0.3578.98,,2019-01-24 15:07:26,2019-01-24 15:07:26,0.050s,PASSED
+"click(findTestObject(""Bespoke Video/shopping cart/Page_SpotLight  Bespoke Video/a_2""))",Chrome 71.0.3578.98,,2019-01-24 15:07:26,2019-01-24 15:07:26,0.104s,PASSED
+"click(findTestObject(""Bespoke Video/shopping cart/Page_SpotLight  Bespoke Video/button_Confirm""))",Chrome 71.0.3578.98,,2019-01-24 15:07:26,2019-01-24 15:07:26,0.115s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-24 15:07:26,2019-01-24 15:07:28,2.002s,PASSED
+"click(findTestObject(""Bespoke_Brochure/add to cart/Page_SpotLight  Bespoke BROCHURE/div_Page18_SliderContent__Slid""))",Chrome 71.0.3578.98,,2019-01-24 15:07:28,2019-01-24 15:07:29,0.618s,FAILED
+,,,,,,
+Test Cases/spolight/Bespoke Brochure Panels/view content/content,Chrome 71.0.3578.98,,2019-01-24 15:07:29,2019-01-24 15:08:00,30.993s,FAILED
+delay(30),Chrome 71.0.3578.98,,2019-01-24 15:07:29,2019-01-24 15:07:59,30.001s,PASSED
+"waitForElementClickable(findTestObject(""manageSettings/Page_SpotLight  Shutter/li_Bespoke BROCHURE96 DPI Docu""), 0)",Chrome 71.0.3578.98,,2019-01-24 15:07:59,2019-01-24 15:07:59,0.069s,PASSED
+"click(findTestObject(""manageSettings/Page_SpotLight  Shutter/li_Bespoke BROCHURE96 DPI Docu""))",Chrome 71.0.3578.98,,2019-01-24 15:07:59,2019-01-24 15:08:00,0.777s,FAILED

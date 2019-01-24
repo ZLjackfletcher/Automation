@@ -1,0 +1,43 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+shutter-pack,Chrome 71.0.3578.98,,2019-01-24 15:49:47,2019-01-24 15:51:15,1m - 27.220s,PASSED
+,,,,,,
+Test Cases/spolight/logging in/login,Chrome 71.0.3578.98,,2019-01-24 15:49:48,2019-01-24 15:49:54,6.536s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-24 15:49:48,2019-01-24 15:49:51,2.950s,PASSED
+"navigateToUrl(""https://spotlightsuite.com/auth/login"")",Chrome 71.0.3578.98,,2019-01-24 15:49:51,2019-01-24 15:49:52,1.001s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-24 15:49:52,2019-01-24 15:49:53,1.149s,PASSED
+waitForPageLoad(0),Chrome 71.0.3578.98,,2019-01-24 15:49:53,2019-01-24 15:49:53,0.056s,PASSED
+"click(findTestObject(""Page_SpotLight  Login/input_Email_undefined-Email-un""))",Chrome 71.0.3578.98,,2019-01-24 15:49:53,2019-01-24 15:49:53,0.127s,PASSED
+"sendKeys(findTestObject(""Page_SpotLight  Login/input_Email_undefined-Email-un""), findTestData(""login spotlight"").getValue(1, 1))",Chrome 71.0.3578.98,,2019-01-24 15:49:53,2019-01-24 15:49:54,0.677s,PASSED
+"click(findTestObject(""Page_SpotLight  Login/input_Password_undefined-Passw""))",Chrome 71.0.3578.98,,2019-01-24 15:49:54,2019-01-24 15:49:54,0.099s,PASSED
+"sendKeys(findTestObject(""Page_SpotLight  Login/input_Password_undefined-Passw""), findTestData(""login spotlight"").getValue(2, 1))",Chrome 71.0.3578.98,,2019-01-24 15:49:54,2019-01-24 15:49:54,0.183s,PASSED
+"click(findTestObject(""Page_SpotLight  Login/input_Forgot my password_Butto""))",Chrome 71.0.3578.98,,2019-01-24 15:49:54,2019-01-24 15:49:54,0.082s,PASSED
+,,,,,,
+Test Cases/spolight/service choice/zlcc stage,Chrome 71.0.3578.98,,2019-01-24 15:49:54,2019-01-24 15:49:56,1.966s,PASSED
+"click(findTestObject(""Page_SpotLight  Login/button_ZLCC Stage""))",Chrome 71.0.3578.98,,2019-01-24 15:49:54,2019-01-24 15:49:55,0.640s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-24 15:49:55,2019-01-24 15:49:56,1.026s,PASSED
+"click(findTestObject(""Services/li_ZLCC Stage""))",Chrome 71.0.3578.98,,2019-01-24 15:49:56,2019-01-24 15:49:56,0.102s,PASSED
+"click(findTestObject(""Page_SpotLight  Login/input_ZLCC Stage_Button__Super""))",Chrome 71.0.3578.98,,2019-01-24 15:49:56,2019-01-24 15:49:56,0.083s,PASSED
+,,,,,,
+Test Cases/spolight/Select Your Application/Shutter,Chrome 71.0.3578.98,,2019-01-24 15:49:56,2019-01-24 15:49:59,2.496s,PASSED
+"click(findTestObject(""pick your apps/Page_SpotLight  Select App - shutter/a""))",Chrome 71.0.3578.98,,2019-01-24 15:49:56,2019-01-24 15:49:57,1.206s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-24 15:49:57,2019-01-24 15:49:58,1.005s,PASSED
+"click(findTestObject(""pick your apps/Page_SpotLight  Select App - shutter/button_Open Application""))",Chrome 71.0.3578.98,,2019-01-24 15:49:58,2019-01-24 15:49:59,0.171s,PASSED
+,,,,,,
+Test Cases/spolight/cars/Audi A5,Chrome 71.0.3578.98,,2019-01-24 15:49:59,2019-01-24 15:49:59,0.284s,PASSED
+"click(findTestObject(""Page_SpotLight  Select Car/div_Audi a5 2018""))",Chrome 71.0.3578.98,,2019-01-24 15:49:59,2019-01-24 15:49:59,0.173s,PASSED
+,,,,,,
+Test Cases/spolight/Shutter-Pro Panels/Save Shots/Quick Shot,Chrome 71.0.3578.98,,2019-01-24 15:49:59,2019-01-24 15:50:10,10.672s,PASSED
+"waitForElementClickable(findTestObject(""Audi A5/Animations/Page_SpotLight  Shutter/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_""), 100)",Chrome 71.0.3578.98,,2019-01-24 15:49:59,2019-01-24 15:50:09,10.424s,PASSED
+"click(findTestObject(""Shutter buttons/saving shots/a_Quick Shot""))",Chrome 71.0.3578.98,,2019-01-24 15:50:09,2019-01-24 15:50:10,0.118s,PASSED
+,,,,,,
+Test Cases/spolight/Shutter-Pro Panels/view content/content,Chrome 71.0.3578.98,,2019-01-24 15:50:10,2019-01-24 15:51:14,1m - 4.369s,PASSED
+delay(60),Chrome 71.0.3578.98,,2019-01-24 15:50:10,2019-01-24 15:51:10,1m - 0.001s,PASSED
+"waitForElementClickable(findTestObject(""manageSettings/Page_SpotLight  Shutter/li_ShutterSingle Shot024808 pm""), 0)",Chrome 71.0.3578.98,,2019-01-24 15:51:10,2019-01-24 15:51:10,0.063s,PASSED
+"click(findTestObject(""manageSettings/Page_SpotLight  Shutter/li_ShutterSingle Shot024808 pm""))",Chrome 71.0.3578.98,,2019-01-24 15:51:10,2019-01-24 15:51:10,0.129s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-24 15:51:10,2019-01-24 15:51:11,1.002s,PASSED
+"click(findTestObject(""manageSettings/Page_SpotLight  Shutter/viewImage""))",Chrome 71.0.3578.98,,2019-01-24 15:51:11,2019-01-24 15:51:11,0.248s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-24 15:51:11,2019-01-24 15:51:12,1.002s,PASSED
+title = getWindowIndex(),Chrome 71.0.3578.98,,2019-01-24 15:51:12,2019-01-24 15:51:12,0.025s,PASSED
+switchToWindowIndex(1),Chrome 71.0.3578.98,,2019-01-24 15:51:12,2019-01-24 15:51:12,0.024s,PASSED
+"takeScreenshot(""C:\screenshots\test.png"")",Chrome 71.0.3578.98,,2019-01-24 15:51:12,2019-01-24 15:51:14,1.692s,PASSED
+closeWindowIndex(1),Chrome 71.0.3578.98,,2019-01-24 15:51:14,2019-01-24 15:51:14,0.035s,PASSED

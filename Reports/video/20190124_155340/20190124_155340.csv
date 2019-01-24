@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+video,Chrome 71.0.3578.98,,2019-01-24 15:53:41,2019-01-24 15:55:26,1m - 44.511s,FAILED
+,,,,,,
+Test Cases/spolight/logging in/login,Chrome 71.0.3578.98,,2019-01-24 15:53:41,2019-01-24 15:53:48,6.771s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-24 15:53:42,2019-01-24 15:53:45,2.987s,PASSED
+"navigateToUrl(""https://spotlightsuite.com/auth/login"")",Chrome 71.0.3578.98,,2019-01-24 15:53:45,2019-01-24 15:53:46,1.240s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-24 15:53:46,2019-01-24 15:53:47,1.139s,PASSED
+waitForPageLoad(0),Chrome 71.0.3578.98,,2019-01-24 15:53:47,2019-01-24 15:53:47,0.056s,PASSED
+"click(findTestObject(""Page_SpotLight  Login/input_Email_undefined-Email-un""))",Chrome 71.0.3578.98,,2019-01-24 15:53:47,2019-01-24 15:53:47,0.109s,PASSED
+"sendKeys(findTestObject(""Page_SpotLight  Login/input_Email_undefined-Email-un""), findTestData(""login spotlight"").getValue(1, 1))",Chrome 71.0.3578.98,,2019-01-24 15:53:47,2019-01-24 15:53:48,0.662s,PASSED
+"click(findTestObject(""Page_SpotLight  Login/input_Password_undefined-Passw""))",Chrome 71.0.3578.98,,2019-01-24 15:53:48,2019-01-24 15:53:48,0.082s,PASSED
+"sendKeys(findTestObject(""Page_SpotLight  Login/input_Password_undefined-Passw""), findTestData(""login spotlight"").getValue(2, 1))",Chrome 71.0.3578.98,,2019-01-24 15:53:48,2019-01-24 15:53:48,0.157s,PASSED
+"click(findTestObject(""Page_SpotLight  Login/input_Forgot my password_Butto""))",Chrome 71.0.3578.98,,2019-01-24 15:53:48,2019-01-24 15:53:48,0.120s,PASSED
+,,,,,,
+Test Cases/spolight/service choice/zlcc stage,Chrome 71.0.3578.98,,2019-01-24 15:53:48,2019-01-24 15:53:50,2.000s,PASSED
+"click(findTestObject(""Page_SpotLight  Login/button_ZLCC Stage""))",Chrome 71.0.3578.98,,2019-01-24 15:53:48,2019-01-24 15:53:49,0.667s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-24 15:53:49,2019-01-24 15:53:50,1.023s,PASSED
+"click(findTestObject(""Services/li_ZLCC Stage""))",Chrome 71.0.3578.98,,2019-01-24 15:53:50,2019-01-24 15:53:50,0.105s,PASSED
+"click(findTestObject(""Page_SpotLight  Login/input_ZLCC Stage_Button__Super""))",Chrome 71.0.3578.98,,2019-01-24 15:53:50,2019-01-24 15:53:50,0.076s,PASSED
+,,,,,,
+Test Cases/spolight/Select Your Application/Bespoke - Video,Chrome 71.0.3578.98,,2019-01-24 15:53:50,2019-01-24 15:54:04,13.370s,PASSED
+"click(findTestObject(""pick your apps/Page_SpotLight  Select App - bespoke video/a""))",Chrome 71.0.3578.98,,2019-01-24 15:53:50,2019-01-24 15:54:02,12.098s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-24 15:54:02,2019-01-24 15:54:03,1.002s,PASSED
+"click(findTestObject(""pick your apps/Page_SpotLight  Select App - bespoke video/button_Open Application""))",Chrome 71.0.3578.98,,2019-01-24 15:54:03,2019-01-24 15:54:04,0.155s,PASSED
+,,,,,,
+Test Cases/spolight/cars/Urus,Chrome 71.0.3578.98,,2019-01-24 15:54:04,2019-01-24 15:54:24,20.342s,PASSED
+"click(findTestObject(""Page_SpotLight  Select Car/div_Urus""))",Chrome 71.0.3578.98,,2019-01-24 15:54:04,2019-01-24 15:54:04,0.224s,PASSED
+delay(20),Chrome 71.0.3578.98,,2019-01-24 15:54:04,2019-01-24 15:54:24,20.002s,PASSED
+,,,,,,
+Test Cases/spolight/Bespoke Video Panels/Single Render/render,Chrome 71.0.3578.98,,2019-01-24 15:54:24,2019-01-24 15:54:24,0.291s,PASSED
+"waitForElementClickable(findTestObject(""Bespoke Video/Single Render/Page_SpotLight  Bespoke Video/a_Single Render""), 0)",Chrome 71.0.3578.98,,2019-01-24 15:54:24,2019-01-24 15:54:24,0.071s,PASSED
+"click(findTestObject(""Bespoke Video/Single Render/Page_SpotLight  Bespoke Video/a_Single Render""))",Chrome 71.0.3578.98,,2019-01-24 15:54:24,2019-01-24 15:54:24,0.079s,PASSED
+,,,,,,
+Test Cases/spolight/Bespoke Video Panels/view content/content,Chrome 71.0.3578.98,,2019-01-24 15:54:24,2019-01-24 15:55:25,1m - 0.890s,FAILED
+delay(60),Chrome 71.0.3578.98,,2019-01-24 15:54:24,2019-01-24 15:55:24,1m - 0.001s,PASSED
+"waitForElementClickable(findTestObject(""manageSettings/Page_SpotLight  Shutter/li_Bespoke VideoSingle Render0""), 0)",Chrome 71.0.3578.98,,2019-01-24 15:55:24,2019-01-24 15:55:24,0.061s,PASSED
+"click(findTestObject(""manageSettings/Page_SpotLight  Shutter/li_Bespoke VideoSingle Render0""))",Chrome 71.0.3578.98,,2019-01-24 15:55:24,2019-01-24 15:55:25,0.696s,FAILED

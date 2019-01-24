@@ -31,7 +31,7 @@ title = WebUI.getWindowIndex()
 
 WebUI.switchToWindowIndex(1)
 
-WebUI.takeScreenshot('C:\\screenshots\\test.png')
+WebUI.takeScreenshot('C:\\screenshots\\bespokeBrochure.png')
 
 WebUI.closeWindowIndex(1)
 
