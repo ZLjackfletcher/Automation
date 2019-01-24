@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+shutter-pack,,,2019-01-24 14:32:38,2019-01-24 14:33:01,22.690s,FAILED
+,,,,,,
+Test Cases/spolight/logging in/login,,,2019-01-24 14:32:38,2019-01-24 14:33:00,21.989s,FAILED
+"openBrowser("""")",,,2019-01-24 14:32:38,2019-01-24 14:33:00,21.775s,FAILED
+,,,,,,
+Test Cases/spolight/service choice/zlcc stage,,,2019-01-24 14:33:00,2019-01-24 14:33:00,0.159s,FAILED
+"click(findTestObject(""Page_SpotLight  Login/button_ZLCC Stage""))",,,2019-01-24 14:33:00,2019-01-24 14:33:00,0.042s,FAILED
+,,,,,,
+Test Cases/spolight/cars/Audi A5,,,2019-01-24 14:33:00,2019-01-24 14:33:00,0.100s,FAILED
+"click(findTestObject(""Page_SpotLight  Select Car/div_Audi a5 2018""))",,,2019-01-24 14:33:00,2019-01-24 14:33:00,0.014s,FAILED
+,,,,,,
+Test Cases/spolight/Shutter-Pro Panels/Save Shots/Quick Shot,,,2019-01-24 14:33:00,2019-01-24 14:33:00,0.093s,FAILED
+"click(findTestObject(""Shutter buttons/saving shots/a_Quick Shot""))",,,2019-01-24 14:33:00,2019-01-24 14:33:00,0.006s,FAILED
+,,,,,,
+Test Cases/spolight/Shutter-Pro Panels/view content/content,,,2019-01-24 14:33:00,2019-01-24 14:33:01,0.126s,FAILED
+"click(findTestObject(""manageSettings/Page_SpotLight  Shutter/a_See More""))",,,2019-01-24 14:33:00,2019-01-24 14:33:01,0.008s,FAILED

@@ -15,3 +15,5 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Page_SpotLight  Select Car/div_Audi a5 2018'))
 
+WebUI.delay(20)
+

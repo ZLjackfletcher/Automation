@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test" time="149" tests="13" failures="3" errors="0">
+   <testsuite name="test" tests="13" failures="3" errors="0" time="149" timestamp="2019-01-15 10:35:13" hostname="builder - Z840-02.ZL.LIMITED" id="Test Suites/test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\builder\\Desktop\\katalon\\Automation\\Reports\\test\\20190115_103512"/>
+         <property name="logFiles" value="C:\\Users\\builder\\Desktop\\katalon\\Automation\\Reports\\test\\20190115_103512\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\builder\\Desktop\\katalon\\Automation\\Reports\\test\\20190115_103512\\1547548559720.png, C:\\Users\\builder\\Desktop\\katalon\\Automation\\Reports\\test\\20190115_103512\\1547548591567.png, C:\\Users\\builder\\Desktop\\katalon\\Automation\\Reports\\test\\20190115_103512\\1547548623454.png"/>
+         <property name="hostName" value="builder - Z840-02.ZL.LIMITED"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="172.20.8.47"/>
+         <property name="sessionId" value="a4e08c57a3b70460dad808b9531a85d1"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/spolight/logging in/login" classname="Test Cases/spolight/logging in/login" status="PASSED">
+         <system-out><![CDATA[2019-01-15 10:35:13 - [TEST_CASE][PASSED] - Test Cases/spolight/logging in/login: Test Cases/spolight/logging in/login
+
+2019-01-15 10:35:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-15 10:35:14 - [MESSAGE][INFO] - Starting 'Remote' driver
+
+2019-01-15 10:35:14 - [MESSAGE][INFO] - User set preference: ['os', 'Windows']
+
+2019-01-15 10:35:14 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2019-01-15 10:35:14 - [MESSAGE][INFO] - Connecting to remote web server 'http://172.20.8.128:21045/wd/hub' with type 'Selenium'
+
+2019-01-15 10:35:14 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-15 10:35:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-15 10:35:17 - [TEST_STEP][PASSED] - navigateToUrl("https://spotlightsuite.com/auth/login"): Navigate to 'https://spotlightsuite.com/auth/login' successfully
+
+2019-01-15 10:35:19 - [MESSAGE][PASSED] - Navigate to 'https://spotlightsuite.com/auth/login' successfully
+
+2019-01-15 10:35:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-15 10:35:20 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-15 10:35:20 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-01-15 10:35:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-15 10:35:20 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-15 10:35:20 - [TEST_STEP][PASSED] - click(findTestObject("Page_SpotLight  Login/input_Email_undefined-Email-un")): Object: 'Object Repository/Page_SpotLight  Login/input_Email_undefined-Email-un' is clicked on
+
+2019-01-15 10:35:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SpotLight  Login/input_Email_undefined-Email-un' is clicked on
+
+2019-01-15 10:35:21 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_SpotLight  Login/input_Email_undefined-Email-un"), findTestData("login spotlight").getValue(1, 1)): Keys 'jack.fletcher' sent to object: 'Object Repository/Page_SpotLight  Login/input_Email_undefined-Email-un'
+
+2019-01-15 10:35:21 - [MESSAGE][PASSED] - Keys 'jack.fletcher' sent to object: 'Object Repository/Page_SpotLight  Login/input_Email_undefined-Email-un'
+
+2019-01-15 10:35:21 - [TEST_STEP][PASSED] - click(findTestObject("Page_SpotLight  Login/input_Password_undefined-Passw")): Object: 'Object Repository/Page_SpotLight  Login/input_Password_undefined-Passw' is clicked on
+
+2019-01-15 10:35:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SpotLight  Login/input_Password_undefined-Passw' is clicked on
+
+2019-01-15 10:35:21 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_SpotLight  Login/input_Password_undefined-Passw"), findTestData("login spotlight").getValue(2, 1)): Keys '11235813Drag0nforc' sent to object: 'Object Repository/Page_SpotLight  Login/input_Password_undefined-Passw'
+
+2019-01-15 10:35:22 - [MESSAGE][PASSED] - Keys '11235813Drag0nforc' sent to object: 'Object Repository/Page_SpotLight  Login/input_Password_undefined-Passw'
+
+2019-01-15 10:35:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_SpotLight  Login/input_Forgot my password_Butto")): Object: 'Object Repository/Page_SpotLight  Login/input_Forgot my password_Butto' is clicked on
+
+2019-01-15 10:35:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SpotLight  Login/input_Forgot my password_Butto' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/spolight/service choice/zlcclive" classname="Test Cases/spolight/service choice/zlcclive" status="PASSED">
+         <system-out><![CDATA[2019-01-15 10:35:22 - [TEST_CASE][PASSED] - Test Cases/spolight/service choice/zlcclive: Test Cases/spolight/service choice/zlcclive
+
+2019-01-15 10:35:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_SpotLight  Login/button_ZLCC Stage")): Object: 'Object Repository/Page_SpotLight  Login/button_ZLCC Stage' is clicked on
+
+2019-01-15 10:35:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SpotLight  Login/button_ZLCC Stage' is clicked on
+
+2019-01-15 10:35:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-15 10:35:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-15 10:35:24 - [TEST_STEP][PASSED] - click(findTestObject("Services/li_zlcclive")): Object: 'Object Repository/Services/li_zlcclive' is clicked on
+
+2019-01-15 10:35:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Services/li_zlcclive' is clicked on
+
+2019-01-15 10:35:24 - [TEST_STEP][PASSED] - click(findTestObject("Page_SpotLight  Login/input_ZLCC Stage_Button__Super")): Object: 'Object Repository/Page_SpotLight  Login/input_ZLCC Stage_Button__Super' is clicked on
+
+2019-01-15 10:35:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SpotLight  Login/input_ZLCC Stage_Button__Super' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/spolight/Select Your Application/Shutter" classname="Test Cases/spolight/Select Your Application/Shutter" status="PASSED">
+         <system-out><![CDATA[2019-01-15 10:35:24 - [TEST_CASE][PASSED] - Test Cases/spolight/Select Your Application/Shutter: Test Cases/spolight/Select Your Application/Shutter
+
+2019-01-15 10:35:24 - [TEST_STEP][PASSED] - click(findTestObject("pick your apps/Page_SpotLight  Select App - shutter/a")): Object: 'Object Repository/pick your apps/Page_SpotLight  Select App - shutter/a' is clicked on
+
+2019-01-15 10:35:26 - [MESSAGE][PASSED] - Object: 'Object Repository/pick your apps/Page_SpotLight  Select App - shutter/a' is clicked on
+
+2019-01-15 10:35:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-15 10:35:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-15 10:35:27 - [TEST_STEP][PASSED] - click(findTestObject("pick your apps/Page_SpotLight  Select App - shutter/button_Open Application")): Object: 'Object Repository/pick your apps/Page_SpotLight  Select App - shutter/button_Open Application' is clicked on
+
+2019-01-15 10:35:27 - [MESSAGE][PASSED] - Object: 'Object Repository/pick your apps/Page_SpotLight  Select App - shutter/button_Open Application' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/spolight/cars/Porsche Cayenne" classname="Test Cases/spolight/cars/Porsche Cayenne" status="PASSED">
+         <system-out><![CDATA[2019-01-15 10:35:27 - [TEST_CASE][PASSED] - Test Cases/spolight/cars/Porsche Cayenne: Test Cases/spolight/cars/Porsche Cayenne
+
+2019-01-15 10:35:28 - [TEST_STEP][PASSED] - click(findTestObject("Page_SpotLight  Select Car/div_Porsche Cayenne")): Object: 'Object Repository/Page_SpotLight  Select Car/div_Porsche Cayenne' is clicked on
+
+2019-01-15 10:35:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SpotLight  Select Car/div_Porsche Cayenne' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/spolight/Porsche/Animations/DoorRL" classname="Test Cases/spolight/Porsche/Animations/DoorRL" status="FAILED">
+         <failure type="FAILED" message="Test Cases/spolight/Porsche/Animations/DoorRL FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_' located by 'By.xpath: //div[5]/div/img' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at DoorRL.run(DoorRL:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547548512096.run(TempTestSuite1547548512096.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-15 10:35:28 - [TEST_CASE][FAILED] - Test Cases/spolight/Porsche/Animations/DoorRL: Test Cases/spolight/Porsche/Animations/DoorRL FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_' located by 'By.xpath: //div[5]/div/img' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at DoorRL.run(DoorRL:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547548512096.run(TempTestSuite1547548512096.groovy:36)
+
+
+2019-01-15 10:35:28 - [TEST_STEP][FAILED] - click(findTestObject("Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_")): click(findTestObject("Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_' located by 'By.xpath: //div[5]/div/img' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at DoorRL.run(DoorRL:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547548512096.run(TempTestSuite1547548512096.groovy:36)
+
+
+2019-01-15 10:35:59 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[5]/div/img'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-01-15 10:36:00 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_' located by 'By.xpath: //div[5]/div/img' not found)
+[[ATTACHMENT|C:\\Users\\builder\\Desktop\\katalon\\Automation\\Reports\\test\\20190115_103512\\1547548559720.png]]
+
+2019-01-15 10:36:00 - [MESSAGE][FAILED] - click(findTestObject("Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_' located by 'By.xpath: //div[5]/div/img' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at DoorRL.run(DoorRL:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547548512096.run(TempTestSuite1547548512096.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-15 10:35:28 - [TEST_CASE][FAILED] - Test Cases/spolight/Porsche/Animations/DoorRL: Test Cases/spolight/Porsche/Animations/DoorRL FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_' located by 'By.xpath: //div[5]/div/img' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at DoorRL.run(DoorRL:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547548512096.run(TempTestSuite1547548512096.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/spolight/Porsche/Animations/Doors" classname="Test Cases/spolight/Porsche/Animations/Doors" status="FAILED">
+         <failure type="FAILED" message="Test Cases/spolight/Porsche/Animations/Doors FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_' located by 'By.xpath: //div[5]/div/img' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Doors.run(Doors:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547548512096.run(TempTestSuite1547548512096.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-15 10:36:00 - [TEST_CASE][FAILED] - Test Cases/spolight/Porsche/Animations/Doors: Test Cases/spolight/Porsche/Animations/Doors FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_' located by 'By.xpath: //div[5]/div/img' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Doors.run(Doors:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547548512096.run(TempTestSuite1547548512096.groovy:36)
+
+
+2019-01-15 10:36:00 - [TEST_STEP][FAILED] - click(findTestObject("Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_")): click(findTestObject("Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_' located by 'By.xpath: //div[5]/div/img' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Doors.run(Doors:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547548512096.run(TempTestSuite1547548512096.groovy:36)
+
+
+2019-01-15 10:36:31 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[5]/div/img'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-01-15 10:36:32 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_' located by 'By.xpath: //div[5]/div/img' not found)
+[[ATTACHMENT|C:\\Users\\builder\\Desktop\\katalon\\Automation\\Reports\\test\\20190115_103512\\1547548591567.png]]
+
+2019-01-15 10:36:32 - [MESSAGE][FAILED] - click(findTestObject("Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_' located by 'By.xpath: //div[5]/div/img' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Doors.run(Doors:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547548512096.run(TempTestSuite1547548512096.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-15 10:36:00 - [TEST_CASE][FAILED] - Test Cases/spolight/Porsche/Animations/Doors: Test Cases/spolight/Porsche/Animations/Doors FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_' located by 'By.xpath: //div[5]/div/img' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Doors.run(Doors:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547548512096.run(TempTestSuite1547548512096.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/spolight/Porsche/Animations/DoorsR" classname="Test Cases/spolight/Porsche/Animations/DoorsR" status="FAILED">
+         <failure type="FAILED" message="Test Cases/spolight/Porsche/Animations/DoorsR FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_' located by 'By.xpath: //div[5]/div/img' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at DoorsR.run(DoorsR:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547548512096.run(TempTestSuite1547548512096.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-15 10:36:32 - [TEST_CASE][FAILED] - Test Cases/spolight/Porsche/Animations/DoorsR: Test Cases/spolight/Porsche/Animations/DoorsR FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_' located by 'By.xpath: //div[5]/div/img' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at DoorsR.run(DoorsR:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547548512096.run(TempTestSuite1547548512096.groovy:36)
+
+
+2019-01-15 10:36:32 - [TEST_STEP][FAILED] - click(findTestObject("Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_")): click(findTestObject("Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_' located by 'By.xpath: //div[5]/div/img' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at DoorsR.run(DoorsR:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547548512096.run(TempTestSuite1547548512096.groovy:36)
+
+
+2019-01-15 10:37:03 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[5]/div/img'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-01-15 10:37:03 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_' located by 'By.xpath: //div[5]/div/img' not found)
+[[ATTACHMENT|C:\\Users\\builder\\Desktop\\katalon\\Automation\\Reports\\test\\20190115_103512\\1547548623454.png]]
+
+2019-01-15 10:37:03 - [MESSAGE][FAILED] - click(findTestObject("Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_' located by 'By.xpath: //div[5]/div/img' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at DoorsR.run(DoorsR:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547548512096.run(TempTestSuite1547548512096.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-15 10:36:32 - [TEST_CASE][FAILED] - Test Cases/spolight/Porsche/Animations/DoorsR: Test Cases/spolight/Porsche/Animations/DoorsR FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_' located by 'By.xpath: //div[5]/div/img' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at DoorsR.run(DoorsR:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547548512096.run(TempTestSuite1547548512096.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/spolight/Porsche/Animations/Trunk" classname="Test Cases/spolight/Porsche/Animations/Trunk" status="PASSED">
+         <system-out><![CDATA[2019-01-15 10:37:03 - [TEST_CASE][PASSED] - Test Cases/spolight/Porsche/Animations/Trunk: Test Cases/spolight/Porsche/Animations/Trunk
+
+2019-01-15 10:37:04 - [TEST_STEP][PASSED] - click(findTestObject("Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_")): Object: 'Object Repository/Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_' is clicked on
+
+2019-01-15 10:37:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_' is clicked on
+
+2019-01-15 10:37:19 - [TEST_STEP][PASSED] - click(findTestObject("Porsche/Animations/Page_SpotLight  Shutter/p_Trunk")): Object: 'Object Repository/Porsche/Animations/Page_SpotLight  Shutter/p_Trunk' is clicked on
+
+2019-01-15 10:37:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Porsche/Animations/Page_SpotLight  Shutter/p_Trunk' is clicked on
+
+2019-01-15 10:37:19 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2019-01-15 10:37:24 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/spolight/Porsche/Cameras/Exterior Cameras/Beauty_Mode_07" classname="Test Cases/spolight/Porsche/Cameras/Exterior Cameras/Beauty_Mode_07" status="PASSED">
+         <system-out><![CDATA[2019-01-15 10:37:24 - [TEST_CASE][PASSED] - Test Cases/spolight/Porsche/Cameras/Exterior Cameras/Beauty_Mode_07: Test Cases/spolight/Porsche/Cameras/Exterior Cameras/Beauty_Mode_07
+
+2019-01-15 10:37:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-15 10:37:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-15 10:37:25 - [TEST_STEP][PASSED] - click(findTestObject("Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_")): Object: 'Object Repository/Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_' is clicked on
+
+2019-01-15 10:37:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_' is clicked on
+
+2019-01-15 10:37:25 - [TEST_STEP][PASSED] - click(findTestObject("Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/p_Cayenne_Beauty_Mode_07")): Object: 'Object Repository/Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/p_Cayenne_Beauty_Mode_07' is clicked on
+
+2019-01-15 10:37:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/p_Cayenne_Beauty_Mode_07' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/spolight/Porsche/Cameras/Exterior Cameras/Beauty_Mode_11" classname="Test Cases/spolight/Porsche/Cameras/Exterior Cameras/Beauty_Mode_11" status="PASSED">
+         <system-out><![CDATA[2019-01-15 10:37:26 - [TEST_CASE][PASSED] - Test Cases/spolight/Porsche/Cameras/Exterior Cameras/Beauty_Mode_11: Test Cases/spolight/Porsche/Cameras/Exterior Cameras/Beauty_Mode_11
+
+2019-01-15 10:37:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-15 10:37:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-15 10:37:27 - [TEST_STEP][PASSED] - click(findTestObject("Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_")): Object: 'Object Repository/Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_' is clicked on
+
+2019-01-15 10:37:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_' is clicked on
+
+2019-01-15 10:37:27 - [TEST_STEP][PASSED] - click(findTestObject("Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/p_Cayenne_Beauty_Mode_11")): Object: 'Object Repository/Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/p_Cayenne_Beauty_Mode_11' is clicked on
+
+2019-01-15 10:37:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/p_Cayenne_Beauty_Mode_11' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/spolight/Porsche/Cameras/Exterior Cameras/Micro_Site_Gallery_0" classname="Test Cases/spolight/Porsche/Cameras/Exterior Cameras/Micro_Site_Gallery_0" status="PASSED">
+         <system-out><![CDATA[2019-01-15 10:37:27 - [TEST_CASE][PASSED] - Test Cases/spolight/Porsche/Cameras/Exterior Cameras/Micro_Site_Gallery_0: Test Cases/spolight/Porsche/Cameras/Exterior Cameras/Micro_Site_Gallery_0
+
+2019-01-15 10:37:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-15 10:37:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-15 10:37:28 - [TEST_STEP][PASSED] - click(findTestObject("Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_")): Object: 'Object Repository/Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_' is clicked on
+
+2019-01-15 10:37:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_' is clicked on
+
+2019-01-15 10:37:28 - [TEST_STEP][PASSED] - click(findTestObject("Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/p_Cayenne_Micro_Site_Gallery_0")): Object: 'Object Repository/Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/p_Cayenne_Micro_Site_Gallery_0' is clicked on
+
+2019-01-15 10:37:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/p_Cayenne_Micro_Site_Gallery_0' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/spolight/Porsche/Environments/Tokyo Ginza" classname="Test Cases/spolight/Porsche/Environments/Tokyo Ginza" status="PASSED">
+         <system-out><![CDATA[2019-01-15 10:37:29 - [TEST_CASE][PASSED] - Test Cases/spolight/Porsche/Environments/Tokyo Ginza: Test Cases/spolight/Porsche/Environments/Tokyo Ginza
+
+2019-01-15 10:37:29 - [TEST_STEP][PASSED] - click(findTestObject("Porsche/Environments/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_")): Object: 'Object Repository/Porsche/Environments/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_' is clicked on
+
+2019-01-15 10:37:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Porsche/Environments/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_' is clicked on
+
+2019-01-15 10:37:29 - [TEST_STEP][PASSED] - click(findTestObject("Porsche/Environments/Page_SpotLight  Shutter/p_Tokyo_Ginza")): Object: 'Object Repository/Porsche/Environments/Page_SpotLight  Shutter/p_Tokyo_Ginza' is clicked on
+
+2019-01-15 10:37:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Porsche/Environments/Page_SpotLight  Shutter/p_Tokyo_Ginza' is clicked on
+
+2019-01-15 10:37:29 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-01-15 10:37:39 - [MESSAGE][PASSED] - Delayed 10 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/spolight/Stream movement/Stream interaction" classname="Test Cases/spolight/Stream movement/Stream interaction" status="PASSED">
+         <system-out><![CDATA[2019-01-15 10:37:39 - [TEST_CASE][PASSED] - Test Cases/spolight/Stream movement/Stream interaction: Test Cases/spolight/Stream movement/Stream interaction
+
+2019-01-15 10:37:39 - [TEST_STEP][PASSED] - dragAndDropByOffset(findTestObject("Stream movement/Page_SpotLight  Shutter/video_Logout_appStream__stream"), 100, 100): Dragged object with id 'Object Repository/Stream movement/Page_SpotLight  Shutter/video_Logout_appStream__stream' by offset distance x = 100 and y = 100 successfully
+
+2019-01-15 10:37:39 - [MESSAGE][PASSED] - Dragged object with id 'Object Repository/Stream movement/Page_SpotLight  Shutter/video_Logout_appStream__stream' by offset distance x = 100 and y = 100 successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/spolight/Shutter-Pro Panels/Format/PNG" classname="Test Cases/spolight/Shutter-Pro Panels/Format/PNG" status="PASSED">
+         <system-out><![CDATA[2019-01-15 10:37:39 - [TEST_CASE][PASSED] - Test Cases/spolight/Shutter-Pro Panels/Format/PNG: Test Cases/spolight/Shutter-Pro Panels/Format/PNG
+
+2019-01-15 10:37:39 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Shutter buttons/output format/Page_SpotLight  Shutter/div_PNG"), 0): Object 'Object Repository/Shutter buttons/output format/Page_SpotLight  Shutter/div_PNG' is clickable
+
+2019-01-15 10:37:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-15 10:37:40 - [MESSAGE][PASSED] - Object 'Object Repository/Shutter buttons/output format/Page_SpotLight  Shutter/div_PNG' is clickable
+
+2019-01-15 10:37:40 - [TEST_STEP][PASSED] - click(findTestObject("Shutter buttons/output format/Page_SpotLight  Shutter/div_PNG")): Object: 'Object Repository/Shutter buttons/output format/Page_SpotLight  Shutter/div_PNG' is clicked on
+
+2019-01-15 10:37:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Shutter buttons/output format/Page_SpotLight  Shutter/div_PNG' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/spolight/Shutter-Pro Panels/Output Formats/1080" classname="Test Cases/spolight/Shutter-Pro Panels/Output Formats/1080" status="PASSED">
+         <system-out><![CDATA[2019-01-15 10:37:40 - [TEST_CASE][PASSED] - Test Cases/spolight/Shutter-Pro Panels/Output Formats/1080: Test Cases/spolight/Shutter-Pro Panels/Output Formats/1080
+
+2019-01-15 10:37:40 - [TEST_STEP][PASSED] - click(findTestObject("Shutter buttons/output format/Page_SpotLight  Shutter/button_720p")): Object: 'Object Repository/Shutter buttons/output format/Page_SpotLight  Shutter/button_720p' is clicked on
+
+2019-01-15 10:37:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Shutter buttons/output format/Page_SpotLight  Shutter/button_720p' is clicked on
+
+2019-01-15 10:37:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-15 10:37:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-15 10:37:41 - [TEST_STEP][PASSED] - click(findTestObject("Shutter buttons/output format/Page_SpotLight  Shutter/li_1080p (1920x1080)")): Object: 'Object Repository/Shutter buttons/output format/Page_SpotLight  Shutter/li_1080p (1920x1080)' is clicked on
+
+2019-01-15 10:37:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Shutter buttons/output format/Page_SpotLight  Shutter/li_1080p (1920x1080)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/spolight/Shutter-Pro Panels/Save Shots/Quick Shot" classname="Test Cases/spolight/Shutter-Pro Panels/Save Shots/Quick Shot" status="PASSED">
+         <system-out><![CDATA[2019-01-15 10:37:41 - [TEST_CASE][PASSED] - Test Cases/spolight/Shutter-Pro Panels/Save Shots/Quick Shot: Test Cases/spolight/Shutter-Pro Panels/Save Shots/Quick Shot
+
+2019-01-15 10:37:41 - [TEST_STEP][PASSED] - click(findTestObject("Shutter buttons/saving shots/a_Quick Shot")): Object: 'Object Repository/Shutter buttons/saving shots/a_Quick Shot' is clicked on
+
+2019-01-15 10:37:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Shutter buttons/saving shots/a_Quick Shot' is clicked on
+
+2019-01-15 10:37:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-15 10:37:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-15 10:37:42 - [TEST_STEP][PASSED] - click(findTestObject("Shutter buttons/saving shots/click off shopping cart")): Object: 'Object Repository/Shutter buttons/saving shots/click off shopping cart' is clicked on
+
+2019-01-15 10:37:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Shutter buttons/saving shots/click off shopping cart' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-15 10:35:13 - [TEST_SUITE][FAILED] - test: Test Cases/spolight/Porsche/Animations/DoorRL FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_' located by 'By.xpath: //div[5]/div/img' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at DoorRL.run(DoorRL:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547548512096.run(TempTestSuite1547548512096.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-01-15 10:35:13 - [TEST_SUITE][FAILED] - test: Test Cases/spolight/Porsche/Animations/DoorRL FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_' located by 'By.xpath: //div[5]/div/img' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at DoorRL.run(DoorRL:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547548512096.run(TempTestSuite1547548512096.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

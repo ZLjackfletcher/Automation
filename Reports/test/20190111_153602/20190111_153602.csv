@@ -1,0 +1,74 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+test,Chrome 71.0.3578.98,,2019-01-11 15:36:04,2019-01-11 15:36:59,55.628s,FAILED
+,,,,,,
+Test Cases/spolight/logging in/login,Chrome 71.0.3578.98,,2019-01-11 15:36:04,2019-01-11 15:36:11,6.899s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-11 15:36:04,2019-01-11 15:36:07,3.069s,PASSED
+"navigateToUrl(""https://spotlightsuite.com/auth/login"")",Chrome 71.0.3578.98,,2019-01-11 15:36:07,2019-01-11 15:36:08,1.314s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-11 15:36:08,2019-01-11 15:36:09,1.140s,PASSED
+waitForPageLoad(0),Chrome 71.0.3578.98,,2019-01-11 15:36:09,2019-01-11 15:36:10,0.057s,PASSED
+"click(findTestObject(""Page_SpotLight  Login/input_Email_undefined-Email-un""))",Chrome 71.0.3578.98,,2019-01-11 15:36:10,2019-01-11 15:36:10,0.110s,PASSED
+"sendKeys(findTestObject(""Page_SpotLight  Login/input_Email_undefined-Email-un""), findTestData(""login spotlight"").getValue(1, 1))",Chrome 71.0.3578.98,,2019-01-11 15:36:10,2019-01-11 15:36:10,0.682s,PASSED
+"click(findTestObject(""Page_SpotLight  Login/input_Password_undefined-Passw""))",Chrome 71.0.3578.98,,2019-01-11 15:36:10,2019-01-11 15:36:10,0.079s,PASSED
+"sendKeys(findTestObject(""Page_SpotLight  Login/input_Password_undefined-Passw""), findTestData(""login spotlight"").getValue(2, 1))",Chrome 71.0.3578.98,,2019-01-11 15:36:10,2019-01-11 15:36:11,0.134s,PASSED
+"click(findTestObject(""Page_SpotLight  Login/input_Forgot my password_Butto""))",Chrome 71.0.3578.98,,2019-01-11 15:36:11,2019-01-11 15:36:11,0.083s,PASSED
+,,,,,,
+Test Cases/spolight/service choice/Lamborghini (prelive),Chrome 71.0.3578.98,,2019-01-11 15:36:11,2019-01-11 15:36:13,1.978s,PASSED
+"click(findTestObject(""Page_SpotLight  Login/button_ZLCC Stage""))",Chrome 71.0.3578.98,,2019-01-11 15:36:11,2019-01-11 15:36:11,0.613s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-11 15:36:11,2019-01-11 15:36:12,1.028s,PASSED
+"click(findTestObject(""Services/li_Lamborghini (prelive)""))",Chrome 71.0.3578.98,,2019-01-11 15:36:12,2019-01-11 15:36:12,0.109s,PASSED
+"click(findTestObject(""Page_SpotLight  Login/input_ZLCC Stage_Button__Super""))",Chrome 71.0.3578.98,,2019-01-11 15:36:12,2019-01-11 15:36:13,0.091s,PASSED
+,,,,,,
+Test Cases/spolight/Select Your Application/Bespoke - Brochure,Chrome 71.0.3578.98,,2019-01-11 15:36:13,2019-01-11 15:36:15,2.493s,PASSED
+"click(findTestObject(""pick your apps/Page_SpotLight  Select App - bespoke borchure/a""))",Chrome 71.0.3578.98,,2019-01-11 15:36:13,2019-01-11 15:36:14,1.217s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-11 15:36:14,2019-01-11 15:36:15,1.003s,PASSED
+"click(findTestObject(""pick your apps/Page_SpotLight  Select App - bespoke borchure/button_Open Application""))",Chrome 71.0.3578.98,,2019-01-11 15:36:15,2019-01-11 15:36:15,0.139s,PASSED
+,,,,,,
+Test Cases/spolight/cars/Aventador,Chrome 71.0.3578.98,,2019-01-11 15:36:15,2019-01-11 15:36:15,0.365s,PASSED
+"click(findTestObject(""Page_SpotLight  Select Car/div_Aventador""))",Chrome 71.0.3578.98,,2019-01-11 15:36:15,2019-01-11 15:36:15,0.247s,PASSED
+,,,,,,
+Test Cases/spolight/Aventador/Animations/Trunk,Chrome 71.0.3578.98,,2019-01-11 15:36:15,2019-01-11 15:36:31,15.727s,PASSED
+"click(findTestObject(""aventador/shutter/Animations/img_Multi Shot_ZlUiIconButton_""))",Chrome 71.0.3578.98,,2019-01-11 15:36:16,2019-01-11 15:36:26,10.472s,PASSED
+"click(findTestObject(""aventador/shutter/Animations/p_Trunk""))",Chrome 71.0.3578.98,,2019-01-11 15:36:26,2019-01-11 15:36:26,0.126s,PASSED
+"delay(5, STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-11 15:36:26,2019-01-11 15:36:31,5.005s,PASSED
+,,,,,,
+Test Cases/spolight/Aventador/Animations/DoorFR,Chrome 71.0.3578.98,,2019-01-11 15:36:31,2019-01-11 15:36:37,5.420s,PASSED
+"click(findTestObject(""aventador/shutter/Animations/img_Multi Shot_ZlUiIconButton_""))",Chrome 71.0.3578.98,,2019-01-11 15:36:31,2019-01-11 15:36:32,0.095s,PASSED
+"click(findTestObject(""aventador/shutter/Animations/p_DoorFR""))",Chrome 71.0.3578.98,,2019-01-11 15:36:32,2019-01-11 15:36:32,0.086s,PASSED
+"delay(5, STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-11 15:36:32,2019-01-11 15:36:37,5.002s,PASSED
+,,,,,,
+Test Cases/spolight/Aventador/Animations/DoorFL,Chrome 71.0.3578.98,,2019-01-11 15:36:37,2019-01-11 15:36:42,5.442s,PASSED
+"click(findTestObject(""aventador/shutter/Animations/img_Multi Shot_ZlUiIconButton_""))",Chrome 71.0.3578.98,,2019-01-11 15:36:37,2019-01-11 15:36:37,0.078s,PASSED
+"click(findTestObject(""aventador/shutter/Animations/p_DoorFL""))",Chrome 71.0.3578.98,,2019-01-11 15:36:37,2019-01-11 15:36:37,0.081s,PASSED
+"delay(5, STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-11 15:36:37,2019-01-11 15:36:42,5.001s,PASSED
+,,,,,,
+Test Cases/spolight/Aventador/Cameras/Interior Cameras/Interior_Beautry_03_RHD,Chrome 71.0.3578.98,,2019-01-11 15:36:42,2019-01-11 15:36:44,1.497s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-11 15:36:42,2019-01-11 15:36:43,1.001s,PASSED
+"click(findTestObject(""aventador/shutter/Cameras/interior cameras/img_Multi Shot_ZlUiIconButton_""))",Chrome 71.0.3578.98,,2019-01-11 15:36:43,2019-01-11 15:36:43,0.150s,PASSED
+"click(findTestObject(""aventador/shutter/Cameras/interior cameras/p_Interior_Beauty_03_RHD""))",Chrome 71.0.3578.98,,2019-01-11 15:36:43,2019-01-11 15:36:44,0.086s,PASSED
+,,,,,,
+Test Cases/spolight/Aventador/Environments/AD - Personam,Chrome 71.0.3578.98,,2019-01-11 15:36:44,2019-01-11 15:36:54,10.347s,PASSED
+"waitForElementClickable(findTestObject(""aventador/shutter/envs/img_Multi Shot_ZlUiIconButton_""), 0)",Chrome 71.0.3578.98,,2019-01-11 15:36:44,2019-01-11 15:36:44,0.075s,PASSED
+"click(findTestObject(""aventador/shutter/envs/img_Multi Shot_ZlUiIconButton_""))",Chrome 71.0.3578.98,,2019-01-11 15:36:44,2019-01-11 15:36:44,0.065s,PASSED
+"click(findTestObject(""aventador/shutter/envs/p_AD_Personam""))",Chrome 71.0.3578.98,,2019-01-11 15:36:44,2019-01-11 15:36:44,0.087s,PASSED
+delay(10),Chrome 71.0.3578.98,,2019-01-11 15:36:44,2019-01-11 15:36:54,10.001s,PASSED
+,,,,,,
+Test Cases/spolight/Bespoke Brochure Panels/Ray-Traced Reflections/enable,Chrome 71.0.3578.98,,2019-01-11 15:36:54,2019-01-11 15:36:54,0.399s,PASSED
+"click(findTestObject(""Bespoke_Brochure/Ray-traced Reflections/Page_SpotLight  Bespoke BROCHURE/button""))",Chrome 71.0.3578.98,,2019-01-11 15:36:54,2019-01-11 15:36:54,0.108s,PASSED
+"click(findTestObject(""Bespoke_Brochure/Ray-traced Reflections/Page_SpotLight  Bespoke BROCHURE/div_Enabled""))",Chrome 71.0.3578.98,,2019-01-11 15:36:54,2019-01-11 15:36:54,0.163s,PASSED
+,,,,,,
+Test Cases/spolight/Bespoke Brochure Panels/Prcode Configurations/PRcode Changes,Chrome 71.0.3578.98,,2019-01-11 15:36:54,2019-01-11 15:36:55,0.662s,FAILED
+"waitForElementClickable(findTestObject(""Shutter buttons/PRCode Config/Page_SpotLight  Shutter/span_Prcode Configuration""), 0)",Chrome 71.0.3578.98,,2019-01-11 15:36:54,2019-01-11 15:36:54,0.037s,PASSED
+"click(findTestObject(""Shutter buttons/PRCode Config/Page_SpotLight  Shutter/span_Prcode Configuration""))",Chrome 71.0.3578.98,,2019-01-11 15:36:54,2019-01-11 15:36:55,0.479s,FAILED
+,,,,,,
+Test Cases/spolight/Bespoke Brochure Panels/Render Preset/150 DPI,Chrome 71.0.3578.98,,2019-01-11 15:36:55,2019-01-11 15:36:55,0.260s,PASSED
+"click(findTestObject(""Bespoke_Brochure/Render preset/Page_SpotLight  Bespoke BROCHURE/button""))",Chrome 71.0.3578.98,,2019-01-11 15:36:55,2019-01-11 15:36:55,0.077s,PASSED
+"click(findTestObject(""Bespoke_Brochure/Render preset/Page_SpotLight  Bespoke BROCHURE/div_Medium quality - 150 DPI""))",Chrome 71.0.3578.98,,2019-01-11 15:36:55,2019-01-11 15:36:55,0.076s,PASSED
+,,,,,,
+Test Cases/spolight/Bespoke Brochure Panels/Add to cart/add to Cart,Chrome 71.0.3578.98,,2019-01-11 15:36:55,2019-01-11 15:36:56,0.489s,FAILED
+"click(findTestObject(""Bespoke_Brochure/add to cart/Page_SpotLight  Bespoke BROCHURE/a_Add to cart""))",Chrome 71.0.3578.98,,2019-01-11 15:36:55,2019-01-11 15:36:56,0.387s,FAILED
+,,,,,,
+Test Cases/spolight/Bespoke Brochure Panels/Add to cart/Shopping cart,Chrome 71.0.3578.98,,2019-01-11 15:36:56,2019-01-11 15:36:58,2.742s,FAILED
+"click(findTestObject(""Bespoke Video/shopping cart/Page_SpotLight  Bespoke Video/a_2""))",Chrome 71.0.3578.98,,2019-01-11 15:36:56,2019-01-11 15:36:56,0.120s,PASSED
+"click(findTestObject(""Bespoke Video/shopping cart/Page_SpotLight  Bespoke Video/button_Confirm""))",Chrome 71.0.3578.98,,2019-01-11 15:36:56,2019-01-11 15:36:56,0.080s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-11 15:36:56,2019-01-11 15:36:58,2.003s,PASSED
+"click(findTestObject(""Bespoke_Brochure/add to cart/Page_SpotLight  Bespoke BROCHURE/div_Page18_SliderContent__Slid""))",Chrome 71.0.3578.98,,2019-01-11 15:36:58,2019-01-11 15:36:58,0.442s,FAILED

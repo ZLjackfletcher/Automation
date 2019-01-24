@@ -1,0 +1,78 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+test,Chrome 71.0.3578.98,,2019-01-15 10:35:13,2019-01-15 10:37:42,2m - 29.401s,FAILED
+,,,,,,
+Test Cases/spolight/logging in/login,Chrome 71.0.3578.98,,2019-01-15 10:35:13,2019-01-15 10:35:22,8.507s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-15 10:35:14,2019-01-15 10:35:17,3.293s,PASSED
+"navigateToUrl(""https://spotlightsuite.com/auth/login"")",Chrome 71.0.3578.98,,2019-01-15 10:35:17,2019-01-15 10:35:19,2.365s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-15 10:35:19,2019-01-15 10:35:20,1.157s,PASSED
+waitForPageLoad(0),Chrome 71.0.3578.98,,2019-01-15 10:35:20,2019-01-15 10:35:20,0.058s,PASSED
+"click(findTestObject(""Page_SpotLight  Login/input_Email_undefined-Email-un""))",Chrome 71.0.3578.98,,2019-01-15 10:35:20,2019-01-15 10:35:21,0.160s,PASSED
+"sendKeys(findTestObject(""Page_SpotLight  Login/input_Email_undefined-Email-un""), findTestData(""login spotlight"").getValue(1, 1))",Chrome 71.0.3578.98,,2019-01-15 10:35:21,2019-01-15 10:35:21,0.726s,PASSED
+"click(findTestObject(""Page_SpotLight  Login/input_Password_undefined-Passw""))",Chrome 71.0.3578.98,,2019-01-15 10:35:21,2019-01-15 10:35:21,0.130s,PASSED
+"sendKeys(findTestObject(""Page_SpotLight  Login/input_Password_undefined-Passw""), findTestData(""login spotlight"").getValue(2, 1))",Chrome 71.0.3578.98,,2019-01-15 10:35:21,2019-01-15 10:35:22,0.232s,PASSED
+"click(findTestObject(""Page_SpotLight  Login/input_Forgot my password_Butto""))",Chrome 71.0.3578.98,,2019-01-15 10:35:22,2019-01-15 10:35:22,0.136s,PASSED
+,,,,,,
+Test Cases/spolight/service choice/zlcclive,Chrome 71.0.3578.98,,2019-01-15 10:35:22,2019-01-15 10:35:24,2.021s,PASSED
+"click(findTestObject(""Page_SpotLight  Login/button_ZLCC Stage""))",Chrome 71.0.3578.98,,2019-01-15 10:35:22,2019-01-15 10:35:23,0.661s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-15 10:35:23,2019-01-15 10:35:24,1.033s,PASSED
+"click(findTestObject(""Services/li_zlcclive""))",Chrome 71.0.3578.98,,2019-01-15 10:35:24,2019-01-15 10:35:24,0.088s,PASSED
+"click(findTestObject(""Page_SpotLight  Login/input_ZLCC Stage_Button__Super""))",Chrome 71.0.3578.98,,2019-01-15 10:35:24,2019-01-15 10:35:24,0.110s,PASSED
+,,,,,,
+Test Cases/spolight/Select Your Application/Shutter,Chrome 71.0.3578.98,,2019-01-15 10:35:24,2019-01-15 10:35:27,3.593s,PASSED
+"click(findTestObject(""pick your apps/Page_SpotLight  Select App - shutter/a""))",Chrome 71.0.3578.98,,2019-01-15 10:35:24,2019-01-15 10:35:26,2.286s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-15 10:35:26,2019-01-15 10:35:27,1.004s,PASSED
+"click(findTestObject(""pick your apps/Page_SpotLight  Select App - shutter/button_Open Application""))",Chrome 71.0.3578.98,,2019-01-15 10:35:27,2019-01-15 10:35:27,0.189s,PASSED
+,,,,,,
+Test Cases/spolight/cars/Porsche Cayenne,Chrome 71.0.3578.98,,2019-01-15 10:35:27,2019-01-15 10:35:28,0.449s,PASSED
+"click(findTestObject(""Page_SpotLight  Select Car/div_Porsche Cayenne""))",Chrome 71.0.3578.98,,2019-01-15 10:35:28,2019-01-15 10:35:28,0.319s,PASSED
+,,,,,,
+Test Cases/spolight/Porsche/Animations/DoorRL,Chrome 71.0.3578.98,,2019-01-15 10:35:28,2019-01-15 10:36:00,31.900s,FAILED
+"click(findTestObject(""Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_""))",Chrome 71.0.3578.98,,2019-01-15 10:35:28,2019-01-15 10:36:00,31.760s,FAILED
+,,,,,,
+Test Cases/spolight/Porsche/Animations/Doors,Chrome 71.0.3578.98,,2019-01-15 10:36:00,2019-01-15 10:36:32,31.818s,FAILED
+"click(findTestObject(""Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_""))",Chrome 71.0.3578.98,,2019-01-15 10:36:00,2019-01-15 10:36:32,31.690s,FAILED
+,,,,,,
+Test Cases/spolight/Porsche/Animations/DoorsR,Chrome 71.0.3578.98,,2019-01-15 10:36:32,2019-01-15 10:37:03,31.912s,FAILED
+"click(findTestObject(""Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_""))",Chrome 71.0.3578.98,,2019-01-15 10:36:32,2019-01-15 10:37:03,31.762s,FAILED
+,,,,,,
+Test Cases/spolight/Porsche/Animations/Trunk,Chrome 71.0.3578.98,,2019-01-15 10:37:03,2019-01-15 10:37:24,20.650s,PASSED
+"click(findTestObject(""Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_""))",Chrome 71.0.3578.98,,2019-01-15 10:37:04,2019-01-15 10:37:19,15.281s,PASSED
+"click(findTestObject(""Porsche/Animations/Page_SpotLight  Shutter/p_Trunk""))",Chrome 71.0.3578.98,,2019-01-15 10:37:19,2019-01-15 10:37:19,0.224s,PASSED
+"delay(5, STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-15 10:37:19,2019-01-15 10:37:24,5.001s,PASSED
+,,,,,,
+Test Cases/spolight/Porsche/Cameras/Exterior Cameras/Beauty_Mode_07,Chrome 71.0.3578.98,,2019-01-15 10:37:24,2019-01-15 10:37:26,1.495s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-15 10:37:24,2019-01-15 10:37:25,1.002s,PASSED
+"click(findTestObject(""Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_""))",Chrome 71.0.3578.98,,2019-01-15 10:37:25,2019-01-15 10:37:25,0.203s,PASSED
+"click(findTestObject(""Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/p_Cayenne_Beauty_Mode_07""))",Chrome 71.0.3578.98,,2019-01-15 10:37:25,2019-01-15 10:37:26,0.168s,PASSED
+,,,,,,
+Test Cases/spolight/Porsche/Cameras/Exterior Cameras/Beauty_Mode_11,Chrome 71.0.3578.98,,2019-01-15 10:37:26,2019-01-15 10:37:27,1.475s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-15 10:37:26,2019-01-15 10:37:27,1.002s,PASSED
+"click(findTestObject(""Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_""))",Chrome 71.0.3578.98,,2019-01-15 10:37:27,2019-01-15 10:37:27,0.203s,PASSED
+"click(findTestObject(""Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/p_Cayenne_Beauty_Mode_11""))",Chrome 71.0.3578.98,,2019-01-15 10:37:27,2019-01-15 10:37:27,0.147s,PASSED
+,,,,,,
+Test Cases/spolight/Porsche/Cameras/Exterior Cameras/Micro_Site_Gallery_0,Chrome 71.0.3578.98,,2019-01-15 10:37:27,2019-01-15 10:37:29,1.443s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-15 10:37:27,2019-01-15 10:37:28,1.001s,PASSED
+"click(findTestObject(""Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_""))",Chrome 71.0.3578.98,,2019-01-15 10:37:28,2019-01-15 10:37:28,0.183s,PASSED
+"click(findTestObject(""Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/p_Cayenne_Micro_Site_Gallery_0""))",Chrome 71.0.3578.98,,2019-01-15 10:37:28,2019-01-15 10:37:29,0.132s,PASSED
+,,,,,,
+Test Cases/spolight/Porsche/Environments/Tokyo Ginza,Chrome 71.0.3578.98,,2019-01-15 10:37:29,2019-01-15 10:37:39,10.461s,PASSED
+"click(findTestObject(""Porsche/Environments/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_""))",Chrome 71.0.3578.98,,2019-01-15 10:37:29,2019-01-15 10:37:29,0.202s,PASSED
+"click(findTestObject(""Porsche/Environments/Page_SpotLight  Shutter/p_Tokyo_Ginza""))",Chrome 71.0.3578.98,,2019-01-15 10:37:29,2019-01-15 10:37:29,0.135s,PASSED
+delay(10),Chrome 71.0.3578.98,,2019-01-15 10:37:29,2019-01-15 10:37:39,10.001s,PASSED
+,,,,,,
+Test Cases/spolight/Stream movement/Stream interaction,Chrome 71.0.3578.98,,2019-01-15 10:37:39,2019-01-15 10:37:39,0.311s,PASSED
+"dragAndDropByOffset(findTestObject(""Stream movement/Page_SpotLight  Shutter/video_Logout_appStream__stream""), 100, 100)",Chrome 71.0.3578.98,,2019-01-15 10:37:39,2019-01-15 10:37:39,0.183s,PASSED
+,,,,,,
+Test Cases/spolight/Shutter-Pro Panels/Format/PNG,Chrome 71.0.3578.98,,2019-01-15 10:37:39,2019-01-15 10:37:40,0.267s,PASSED
+"waitForElementClickable(findTestObject(""Shutter buttons/output format/Page_SpotLight  Shutter/div_PNG""), 0)",Chrome 71.0.3578.98,,2019-01-15 10:37:39,2019-01-15 10:37:40,0.061s,PASSED
+"click(findTestObject(""Shutter buttons/output format/Page_SpotLight  Shutter/div_PNG""))",Chrome 71.0.3578.98,,2019-01-15 10:37:40,2019-01-15 10:37:40,0.104s,PASSED
+,,,,,,
+Test Cases/spolight/Shutter-Pro Panels/Output Formats/1080,Chrome 71.0.3578.98,,2019-01-15 10:37:40,2019-01-15 10:37:41,1.379s,PASSED
+"click(findTestObject(""Shutter buttons/output format/Page_SpotLight  Shutter/button_720p""))",Chrome 71.0.3578.98,,2019-01-15 10:37:40,2019-01-15 10:37:40,0.126s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-15 10:37:40,2019-01-15 10:37:41,1.003s,PASSED
+"click(findTestObject(""Shutter buttons/output format/Page_SpotLight  Shutter/li_1080p (1920x1080)""))",Chrome 71.0.3578.98,,2019-01-15 10:37:41,2019-01-15 10:37:41,0.151s,PASSED
+,,,,,,
+Test Cases/spolight/Shutter-Pro Panels/Save Shots/Quick Shot,Chrome 71.0.3578.98,,2019-01-15 10:37:41,2019-01-15 10:37:42,1.380s,PASSED
+"click(findTestObject(""Shutter buttons/saving shots/a_Quick Shot""))",Chrome 71.0.3578.98,,2019-01-15 10:37:41,2019-01-15 10:37:41,0.134s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-15 10:37:41,2019-01-15 10:37:42,1.002s,PASSED
+"click(findTestObject(""Shutter buttons/saving shots/click off shopping cart""))",Chrome 71.0.3578.98,,2019-01-15 10:37:42,2019-01-15 10:37:42,0.138s,PASSED

@@ -1,0 +1,84 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+test,,,2019-01-14 16:27:28,2019-01-14 16:29:22,1m - 54.198s,PASSED
+,,,,,,
+Test Cases/spolight/logging in/login,,,2019-01-14 16:27:28,2019-01-14 16:28:02,33.597s,PASSED
+"openBrowser("""")",,,2019-01-14 16:27:28,2019-01-14 16:27:54,25.981s,PASSED
+"navigateToUrl(""https://spotlightsuite.com/auth/login"")",,,2019-01-14 16:27:54,2019-01-14 16:27:57,2.324s,PASSED
+maximizeWindow(),,,2019-01-14 16:27:57,2019-01-14 16:27:58,1.522s,PASSED
+waitForPageLoad(0),,,2019-01-14 16:27:58,2019-01-14 16:27:58,0.102s,PASSED
+"click(findTestObject(""Page_SpotLight  Login/input_Email_undefined-Email-un""))",,,2019-01-14 16:27:58,2019-01-14 16:27:59,0.497s,PASSED
+"sendKeys(findTestObject(""Page_SpotLight  Login/input_Email_undefined-Email-un""), findTestData(""login spotlight"").getValue(1, 1))",,,2019-01-14 16:27:59,2019-01-14 16:28:00,1.414s,PASSED
+"click(findTestObject(""Page_SpotLight  Login/input_Password_undefined-Passw""))",,,2019-01-14 16:28:00,2019-01-14 16:28:01,0.468s,PASSED
+"sendKeys(findTestObject(""Page_SpotLight  Login/input_Password_undefined-Passw""), findTestData(""login spotlight"").getValue(2, 1))",,,2019-01-14 16:28:01,2019-01-14 16:28:01,0.683s,PASSED
+"click(findTestObject(""Page_SpotLight  Login/input_Forgot my password_Butto""))",,,2019-01-14 16:28:01,2019-01-14 16:28:02,0.339s,PASSED
+,,,,,,
+Test Cases/spolight/service choice/zlcclive,,,2019-01-14 16:28:02,2019-01-14 16:28:04,2.476s,PASSED
+"click(findTestObject(""Page_SpotLight  Login/button_ZLCC Stage""))",,,2019-01-14 16:28:02,2019-01-14 16:28:02,0.511s,PASSED
+delay(1),,,2019-01-14 16:28:02,2019-01-14 16:28:03,1.033s,PASSED
+"click(findTestObject(""Services/li_zlcclive""))",,,2019-01-14 16:28:03,2019-01-14 16:28:04,0.509s,PASSED
+"click(findTestObject(""Page_SpotLight  Login/input_ZLCC Stage_Button__Super""))",,,2019-01-14 16:28:04,2019-01-14 16:28:04,0.313s,PASSED
+,,,,,,
+Test Cases/spolight/Select Your Application/Shutter,,,2019-01-14 16:28:04,2019-01-14 16:28:08,3.352s,PASSED
+"click(findTestObject(""pick your apps/Page_SpotLight  Select App - shutter/a""))",,,2019-01-14 16:28:04,2019-01-14 16:28:06,1.956s,PASSED
+delay(1),,,2019-01-14 16:28:06,2019-01-14 16:28:07,1.002s,PASSED
+"click(findTestObject(""pick your apps/Page_SpotLight  Select App - shutter/button_Open Application""))",,,2019-01-14 16:28:07,2019-01-14 16:28:08,0.280s,PASSED
+,,,,,,
+Test Cases/spolight/cars/Porsche Cayenne,,,2019-01-14 16:28:08,2019-01-14 16:28:08,0.709s,PASSED
+"click(findTestObject(""Page_SpotLight  Select Car/div_Porsche Cayenne""))",,,2019-01-14 16:28:08,2019-01-14 16:28:08,0.582s,PASSED
+,,,,,,
+Test Cases/spolight/Porsche/Animations/DoorRL,,,2019-01-14 16:28:08,2019-01-14 16:28:34,25.667s,PASSED
+"click(findTestObject(""Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_""))",,,2019-01-14 16:28:08,2019-01-14 16:28:29,20.121s,PASSED
+"click(findTestObject(""Porsche/Animations/Page_SpotLight  Shutter/p_DoorRL""))",,,2019-01-14 16:28:29,2019-01-14 16:28:29,0.403s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,2019-01-14 16:28:29,2019-01-14 16:28:34,5.006s,PASSED
+,,,,,,
+Test Cases/spolight/Porsche/Animations/Doors,,,2019-01-14 16:28:34,2019-01-14 16:28:39,5.568s,PASSED
+"click(findTestObject(""Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_""))",,,2019-01-14 16:28:34,2019-01-14 16:28:34,0.213s,PASSED
+"click(findTestObject(""Porsche/Animations/Page_SpotLight  Shutter/p_Doors""))",,,2019-01-14 16:28:34,2019-01-14 16:28:34,0.221s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,2019-01-14 16:28:34,2019-01-14 16:28:39,5.002s,PASSED
+,,,,,,
+Test Cases/spolight/Porsche/Animations/DoorsR,,,2019-01-14 16:28:40,2019-01-14 16:28:45,5.518s,PASSED
+"click(findTestObject(""Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_""))",,,2019-01-14 16:28:40,2019-01-14 16:28:40,0.184s,PASSED
+"click(findTestObject(""Porsche/Animations/Page_SpotLight  Shutter/p_DoorsR""))",,,2019-01-14 16:28:40,2019-01-14 16:28:40,0.194s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,2019-01-14 16:28:40,2019-01-14 16:28:45,5.002s,PASSED
+,,,,,,
+Test Cases/spolight/Porsche/Animations/Trunk,,,2019-01-14 16:28:45,2019-01-14 16:28:51,5.501s,PASSED
+"click(findTestObject(""Porsche/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_""))",,,2019-01-14 16:28:45,2019-01-14 16:28:45,0.185s,PASSED
+"click(findTestObject(""Porsche/Animations/Page_SpotLight  Shutter/p_Trunk""))",,,2019-01-14 16:28:45,2019-01-14 16:28:46,0.180s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,2019-01-14 16:28:46,2019-01-14 16:28:51,5.002s,PASSED
+,,,,,,
+Test Cases/spolight/Porsche/Cameras/Exterior Cameras/Beauty_Mode_07,,,2019-01-14 16:28:51,2019-01-14 16:28:52,1.765s,PASSED
+delay(1),,,2019-01-14 16:28:51,2019-01-14 16:28:52,1.003s,PASSED
+"click(findTestObject(""Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_""))",,,2019-01-14 16:28:52,2019-01-14 16:28:52,0.237s,PASSED
+"click(findTestObject(""Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/p_Cayenne_Beauty_Mode_07""))",,,2019-01-14 16:28:52,2019-01-14 16:28:52,0.364s,PASSED
+,,,,,,
+Test Cases/spolight/Porsche/Cameras/Exterior Cameras/Beauty_Mode_11,,,2019-01-14 16:28:52,2019-01-14 16:28:54,1.537s,PASSED
+delay(1),,,2019-01-14 16:28:52,2019-01-14 16:28:53,1.001s,PASSED
+"click(findTestObject(""Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_""))",,,2019-01-14 16:28:53,2019-01-14 16:28:54,0.210s,PASSED
+"click(findTestObject(""Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/p_Cayenne_Beauty_Mode_11""))",,,2019-01-14 16:28:54,2019-01-14 16:28:54,0.205s,PASSED
+,,,,,,
+Test Cases/spolight/Porsche/Cameras/Exterior Cameras/Micro_Site_Gallery_0,,,2019-01-14 16:28:54,2019-01-14 16:28:55,1.572s,PASSED
+delay(1),,,2019-01-14 16:28:54,2019-01-14 16:28:55,1.003s,PASSED
+"click(findTestObject(""Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_""))",,,2019-01-14 16:28:55,2019-01-14 16:28:55,0.197s,PASSED
+"click(findTestObject(""Porsche/Cameras/Exterior Cameras/Page_SpotLight  Shutter/p_Cayenne_Micro_Site_Gallery_0""))",,,2019-01-14 16:28:55,2019-01-14 16:28:55,0.231s,PASSED
+,,,,,,
+Test Cases/spolight/Porsche/Environments/Tokyo Ginza,,,2019-01-14 16:28:55,2019-01-14 16:29:06,10.935s,PASSED
+"click(findTestObject(""Porsche/Environments/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_""))",,,2019-01-14 16:28:56,2019-01-14 16:28:56,0.514s,PASSED
+"click(findTestObject(""Porsche/Environments/Page_SpotLight  Shutter/p_Tokyo_Ginza""))",,,2019-01-14 16:28:56,2019-01-14 16:28:56,0.242s,PASSED
+delay(10),,,2019-01-14 16:28:56,2019-01-14 16:29:06,10.001s,PASSED
+,,,,,,
+Test Cases/spolight/Stream movement/Stream interaction,,,2019-01-14 16:29:06,2019-01-14 16:29:07,0.514s,PASSED
+"dragAndDropByOffset(findTestObject(""Stream movement/Page_SpotLight  Shutter/video_Logout_appStream__stream""), 100, 100)",,,2019-01-14 16:29:06,2019-01-14 16:29:07,0.395s,PASSED
+,,,,,,
+Test Cases/spolight/Shutter-Pro Panels/Format/PNG,,,2019-01-14 16:29:07,2019-01-14 16:29:07,0.396s,PASSED
+"waitForElementClickable(findTestObject(""Shutter buttons/output format/Page_SpotLight  Shutter/div_PNG""), 0)",,,2019-01-14 16:29:07,2019-01-14 16:29:07,0.122s,PASSED
+"click(findTestObject(""Shutter buttons/output format/Page_SpotLight  Shutter/div_PNG""))",,,2019-01-14 16:29:07,2019-01-14 16:29:07,0.158s,PASSED
+,,,,,,
+Test Cases/spolight/Shutter-Pro Panels/Output Formats/1080,,,2019-01-14 16:29:07,2019-01-14 16:29:09,1.552s,PASSED
+"click(findTestObject(""Shutter buttons/output format/Page_SpotLight  Shutter/button_720p""))",,,2019-01-14 16:29:07,2019-01-14 16:29:08,0.179s,PASSED
+delay(1),,,2019-01-14 16:29:08,2019-01-14 16:29:09,1.003s,PASSED
+"click(findTestObject(""Shutter buttons/output format/Page_SpotLight  Shutter/li_1080p (1920x1080)""))",,,2019-01-14 16:29:09,2019-01-14 16:29:09,0.248s,PASSED
+,,,,,,
+Test Cases/spolight/Shutter-Pro Panels/Save Shots/Quick Shot,,,2019-01-14 16:29:09,2019-01-14 16:29:10,1.569s,PASSED
+"click(findTestObject(""Shutter buttons/saving shots/a_Quick Shot""))",,,2019-01-14 16:29:09,2019-01-14 16:29:09,0.200s,PASSED
+delay(1),,,2019-01-14 16:29:09,2019-01-14 16:29:10,1.002s,PASSED
+"click(findTestObject(""Shutter buttons/saving shots/click off shopping cart""))",,,2019-01-14 16:29:10,2019-01-14 16:29:10,0.249s,PASSED

@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+shutter-pack,Chrome 71.0.3578.98,,2019-01-24 14:33:15,2019-01-24 14:33:38,23.148s,INCOMPLETE
+,,,,,,
+Test Cases/spolight/logging in/login,Chrome 71.0.3578.98,,2019-01-24 14:33:15,2019-01-24 14:33:21,6.175s,FAILED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-24 14:33:15,2019-01-24 14:33:18,2.997s,PASSED
+"navigateToUrl(""https://spotlightsuite.com/auth/login"")",Chrome 71.0.3578.98,,2019-01-24 14:33:18,2019-01-24 14:33:21,2.922s,FAILED
+,,,,,,
+Test Cases/spolight/service choice/zlcc stage,Chrome 71.0.3578.98,,2019-01-24 14:33:21,2019-01-24 14:33:25,4.187s,FAILED
+"click(findTestObject(""Page_SpotLight  Login/button_ZLCC Stage""))",Chrome 71.0.3578.98,,2019-01-24 14:33:21,2019-01-24 14:33:25,4.071s,FAILED
+,,,,,,
+Test Cases/spolight/cars/Audi A5,Chrome 71.0.3578.98,,2019-01-24 14:33:25,2019-01-24 14:33:30,4.164s,FAILED
+"click(findTestObject(""Page_SpotLight  Select Car/div_Audi a5 2018""))",Chrome 71.0.3578.98,,2019-01-24 14:33:26,2019-01-24 14:33:30,4.040s,FAILED
+,,,,,,
+Test Cases/spolight/Shutter-Pro Panels/Save Shots/Quick Shot,Chrome 71.0.3578.98,,2019-01-24 14:33:30,2019-01-24 14:33:34,4.199s,FAILED
+"click(findTestObject(""Shutter buttons/saving shots/a_Quick Shot""))",Chrome 71.0.3578.98,,2019-01-24 14:33:30,2019-01-24 14:33:34,4.063s,FAILED
+,,,,,,
+Test Cases/spolight/Shutter-Pro Panels/view content/content,Chrome 71.0.3578.98,,2019-01-24 14:33:34,2019-01-24 14:33:38,4.213s,FAILED
+"click(findTestObject(""manageSettings/Page_SpotLight  Shutter/a_See More""))",Chrome 71.0.3578.98,,2019-01-24 14:33:34,2019-01-24 14:33:38,4.049s,FAILED

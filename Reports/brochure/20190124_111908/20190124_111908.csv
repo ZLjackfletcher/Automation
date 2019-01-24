@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+brochure,Chrome 71.0.3578.98,,2019-01-24 11:19:10,2019-01-24 11:19:27,16.996s,PASSED
+,,,,,,
+Test Cases/spolight/logging in/login,Chrome 71.0.3578.98,,2019-01-24 11:19:10,2019-01-24 11:19:18,7.762s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-24 11:19:10,2019-01-24 11:19:14,3.405s,PASSED
+"navigateToUrl(""https://spotlightsuite.com/auth/login"")",Chrome 71.0.3578.98,,2019-01-24 11:19:14,2019-01-24 11:19:15,1.785s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-24 11:19:15,2019-01-24 11:19:17,1.137s,PASSED
+waitForPageLoad(0),Chrome 71.0.3578.98,,2019-01-24 11:19:17,2019-01-24 11:19:17,0.054s,PASSED
+"click(findTestObject(""Page_SpotLight  Login/input_Email_undefined-Email-un""))",Chrome 71.0.3578.98,,2019-01-24 11:19:17,2019-01-24 11:19:17,0.129s,PASSED
+"sendKeys(findTestObject(""Page_SpotLight  Login/input_Email_undefined-Email-un""), findTestData(""login spotlight"").getValue(1, 1))",Chrome 71.0.3578.98,,2019-01-24 11:19:17,2019-01-24 11:19:17,0.690s,PASSED
+"click(findTestObject(""Page_SpotLight  Login/input_Password_undefined-Passw""))",Chrome 71.0.3578.98,,2019-01-24 11:19:17,2019-01-24 11:19:17,0.087s,PASSED
+"sendKeys(findTestObject(""Page_SpotLight  Login/input_Password_undefined-Passw""), findTestData(""login spotlight"").getValue(2, 1))",Chrome 71.0.3578.98,,2019-01-24 11:19:17,2019-01-24 11:19:18,0.157s,PASSED
+"click(findTestObject(""Page_SpotLight  Login/input_Forgot my password_Butto""))",Chrome 71.0.3578.98,,2019-01-24 11:19:18,2019-01-24 11:19:18,0.111s,PASSED
+,,,,,,
+Test Cases/spolight/service choice/zlcc stage,Chrome 71.0.3578.98,,2019-01-24 11:19:18,2019-01-24 11:19:20,1.963s,PASSED
+"click(findTestObject(""Page_SpotLight  Login/button_ZLCC Stage""))",Chrome 71.0.3578.98,,2019-01-24 11:19:18,2019-01-24 11:19:19,0.640s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-24 11:19:19,2019-01-24 11:19:20,1.026s,PASSED
+"click(findTestObject(""Services/li_ZLCC Stage""))",Chrome 71.0.3578.98,,2019-01-24 11:19:20,2019-01-24 11:19:20,0.104s,PASSED
+"click(findTestObject(""Page_SpotLight  Login/input_ZLCC Stage_Button__Super""))",Chrome 71.0.3578.98,,2019-01-24 11:19:20,2019-01-24 11:19:20,0.081s,PASSED
+,,,,,,
+Test Cases/spolight/Select Your Application/Bespoke - Brochure,Chrome 71.0.3578.98,,2019-01-24 11:19:20,2019-01-24 11:19:23,3.058s,PASSED
+"click(findTestObject(""pick your apps/Page_SpotLight  Select App - bespoke borchure/a""))",Chrome 71.0.3578.98,,2019-01-24 11:19:20,2019-01-24 11:19:22,1.761s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-24 11:19:22,2019-01-24 11:19:23,1.003s,PASSED
+"click(findTestObject(""pick your apps/Page_SpotLight  Select App - bespoke borchure/button_Open Application""))",Chrome 71.0.3578.98,,2019-01-24 11:19:23,2019-01-24 11:19:23,0.168s,PASSED
+,,,,,,
+Test Cases/spolight/cars/Audi A5,Chrome 71.0.3578.98,,2019-01-24 11:19:23,2019-01-24 11:19:23,0.299s,PASSED
+"click(findTestObject(""Page_SpotLight  Select Car/div_Audi a5 2018""))",Chrome 71.0.3578.98,,2019-01-24 11:19:23,2019-01-24 11:19:23,0.177s,PASSED
+,,,,,,
+Test Cases/spolight/Bespoke Brochure Panels/Add to cart/add to Cart,Chrome 71.0.3578.98,,2019-01-24 11:19:23,2019-01-24 11:19:23,0.194s,PASSED
+"click(findTestObject(""Bespoke_Brochure/add to cart/Page_SpotLight  Bespoke BROCHURE/a_Add to cart""))",Chrome 71.0.3578.98,,2019-01-24 11:19:23,2019-01-24 11:19:23,0.069s,PASSED
+,,,,,,
+Test Cases/spolight/Bespoke Brochure Panels/Add to cart/Shopping cart,Chrome 71.0.3578.98,,2019-01-24 11:19:23,2019-01-24 11:19:26,2.597s,PASSED
+"click(findTestObject(""Bespoke Video/shopping cart/Page_SpotLight  Bespoke Video/a_2""))",Chrome 71.0.3578.98,,2019-01-24 11:19:23,2019-01-24 11:19:24,0.195s,PASSED
+"click(findTestObject(""Bespoke Video/shopping cart/Page_SpotLight  Bespoke Video/button_Confirm""))",Chrome 71.0.3578.98,,2019-01-24 11:19:24,2019-01-24 11:19:24,0.137s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-24 11:19:24,2019-01-24 11:19:26,2.002s,PASSED
+"click(findTestObject(""Bespoke_Brochure/add to cart/Page_SpotLight  Bespoke BROCHURE/div_Page18_SliderContent__Slid""))",Chrome 71.0.3578.98,,2019-01-24 11:19:26,2019-01-24 11:19:26,0.126s,PASSED

@@ -1,0 +1,44 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+anims,,,2019-01-15 10:50:02,2019-01-15 10:50:04,2.289s,FAILED
+,,,,,,
+Test Cases/spolight/E-tron/Animations/DoorFL,,,2019-01-15 10:50:02,2019-01-15 10:50:03,0.653s,FAILED
+"click(findTestObject(""E-tron/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_""))",,,2019-01-15 10:50:03,2019-01-15 10:50:03,0.409s,FAILED
+,,,,,,
+Test Cases/spolight/E-tron/Animations/DoorFR,,,2019-01-15 10:50:03,2019-01-15 10:50:03,0.125s,FAILED
+"click(findTestObject(""E-tron/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_""))",,,2019-01-15 10:50:03,2019-01-15 10:50:03,0.009s,FAILED
+,,,,,,
+Test Cases/spolight/E-tron/Animations/DoorRL,,,2019-01-15 10:50:03,2019-01-15 10:50:03,0.140s,FAILED
+"click(findTestObject(""E-tron/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_""))",,,2019-01-15 10:50:03,2019-01-15 10:50:03,0.008s,FAILED
+,,,,,,
+Test Cases/spolight/E-tron/Animations/DoorRR,,,2019-01-15 10:50:03,2019-01-15 10:50:03,0.155s,FAILED
+"click(findTestObject(""E-tron/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_""))",,,2019-01-15 10:50:03,2019-01-15 10:50:03,0.008s,FAILED
+,,,,,,
+Test Cases/spolight/E-tron/Animations/Doors,,,2019-01-15 10:50:03,2019-01-15 10:50:04,0.130s,FAILED
+"click(findTestObject(""E-tron/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_""))",,,2019-01-15 10:50:03,2019-01-15 10:50:04,0.007s,FAILED
+,,,,,,
+Test Cases/spolight/E-tron/Animations/DoorsF,,,2019-01-15 10:50:04,2019-01-15 10:50:04,0.100s,FAILED
+"click(findTestObject(""E-tron/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_""))",,,2019-01-15 10:50:04,2019-01-15 10:50:04,0.006s,FAILED
+,,,,,,
+Test Cases/spolight/E-tron/Animations/DoorsR,,,2019-01-15 10:50:04,2019-01-15 10:50:04,0.105s,FAILED
+"click(findTestObject(""E-tron/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_""))",,,2019-01-15 10:50:04,2019-01-15 10:50:04,0.004s,FAILED
+,,,,,,
+Test Cases/spolight/E-tron/Animations/DRLights,,,2019-01-15 10:50:04,2019-01-15 10:50:04,0.097s,FAILED
+"click(findTestObject(""E-tron/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_""))",,,2019-01-15 10:50:04,2019-01-15 10:50:04,0.005s,FAILED
+,,,,,,
+Test Cases/spolight/E-tron/Animations/Engine,,,2019-01-15 10:50:04,2019-01-15 10:50:04,0.094s,FAILED
+"click(findTestObject(""E-tron/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_""))",,,2019-01-15 10:50:04,2019-01-15 10:50:04,0.005s,FAILED
+,,,,,,
+Test Cases/spolight/E-tron/Animations/Headlights,,,2019-01-15 10:50:04,2019-01-15 10:50:04,0.093s,FAILED
+"click(findTestObject(""E-tron/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_""))",,,2019-01-15 10:50:04,2019-01-15 10:50:04,0.004s,FAILED
+,,,,,,
+Test Cases/spolight/E-tron/Animations/InteriorLights,,,2019-01-15 10:50:04,2019-01-15 10:50:04,0.092s,FAILED
+"click(findTestObject(""E-tron/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_""))",,,2019-01-15 10:50:04,2019-01-15 10:50:04,0.004s,FAILED
+,,,,,,
+Test Cases/spolight/E-tron/Animations/NightLights,,,2019-01-15 10:50:04,2019-01-15 10:50:04,0.101s,FAILED
+"click(findTestObject(""E-tron/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_""))",,,2019-01-15 10:50:04,2019-01-15 10:50:04,0.008s,FAILED
+,,,,,,
+Test Cases/spolight/E-tron/Animations/SoundSystem,,,2019-01-15 10:50:04,2019-01-15 10:50:04,0.100s,FAILED
+"click(findTestObject(""E-tron/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_""))",,,2019-01-15 10:50:04,2019-01-15 10:50:04,0.005s,FAILED
+,,,,,,
+Test Cases/spolight/E-tron/Animations/Trunk,,,2019-01-15 10:50:04,2019-01-15 10:50:04,0.087s,FAILED
+"click(findTestObject(""E-tron/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_""))",,,2019-01-15 10:50:04,2019-01-15 10:50:04,0.003s,FAILED

@@ -1,0 +1,70 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+anims,Chrome 71.0.3578.98,,2019-01-03 14:40:47,2019-01-03 14:41:50,1m - 3.331s,FAILED
+,,,,,,
+Test Cases/spolight/E-tron/Animations/DoorFL,Chrome 71.0.3578.98,,2019-01-03 14:40:47,2019-01-03 14:40:53,6.276s,PASSED
+"click(findTestObject(""E-tron/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_""))",Chrome 71.0.3578.98,,2019-01-03 14:40:47,2019-01-03 14:40:48,0.944s,PASSED
+"click(findTestObject(""E-tron/Animations/Page_SpotLight  Shutter/p_DoorFL""))",Chrome 71.0.3578.98,,2019-01-03 14:40:48,2019-01-03 14:40:48,0.086s,PASSED
+"delay(5, STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-03 14:40:48,2019-01-03 14:40:53,5.017s,PASSED
+,,,,,,
+Test Cases/spolight/E-tron/Animations/DoorFR,Chrome 71.0.3578.98,,2019-01-03 14:40:53,2019-01-03 14:40:58,5.311s,PASSED
+"click(findTestObject(""E-tron/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_""))",Chrome 71.0.3578.98,,2019-01-03 14:40:53,2019-01-03 14:40:53,0.075s,PASSED
+"click(findTestObject(""E-tron/Animations/Page_SpotLight  Shutter/p_DoorFR""))",Chrome 71.0.3578.98,,2019-01-03 14:40:53,2019-01-03 14:40:53,0.083s,PASSED
+"delay(5, STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-03 14:40:53,2019-01-03 14:40:58,5.001s,PASSED
+,,,,,,
+Test Cases/spolight/E-tron/Animations/DoorRL,Chrome 71.0.3578.98,,2019-01-03 14:40:58,2019-01-03 14:41:04,5.315s,PASSED
+"click(findTestObject(""E-tron/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_""))",Chrome 71.0.3578.98,,2019-01-03 14:40:59,2019-01-03 14:40:59,0.096s,PASSED
+"click(findTestObject(""E-tron/Animations/Page_SpotLight  Shutter/p_DoorRL""))",Chrome 71.0.3578.98,,2019-01-03 14:40:59,2019-01-03 14:40:59,0.080s,PASSED
+"delay(5, STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-03 14:40:59,2019-01-03 14:41:04,5.001s,PASSED
+,,,,,,
+Test Cases/spolight/E-tron/Animations/DoorRR,Chrome 71.0.3578.98,,2019-01-03 14:41:04,2019-01-03 14:41:09,5.363s,PASSED
+"click(findTestObject(""E-tron/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_""))",Chrome 71.0.3578.98,,2019-01-03 14:41:04,2019-01-03 14:41:04,0.103s,PASSED
+"click(findTestObject(""E-tron/Animations/Page_SpotLight  Shutter/p_DoorRR""))",Chrome 71.0.3578.98,,2019-01-03 14:41:04,2019-01-03 14:41:04,0.109s,PASSED
+"delay(5, STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-03 14:41:04,2019-01-03 14:41:09,5.000s,PASSED
+,,,,,,
+Test Cases/spolight/E-tron/Animations/Doors,Chrome 71.0.3578.98,,2019-01-03 14:41:09,2019-01-03 14:41:14,5.345s,PASSED
+"click(findTestObject(""E-tron/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_""))",Chrome 71.0.3578.98,,2019-01-03 14:41:09,2019-01-03 14:41:09,0.089s,PASSED
+"click(findTestObject(""E-tron/Animations/Page_SpotLight  Shutter/p_Doors""))",Chrome 71.0.3578.98,,2019-01-03 14:41:09,2019-01-03 14:41:09,0.117s,PASSED
+"delay(5, STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-03 14:41:09,2019-01-03 14:41:14,5.001s,PASSED
+,,,,,,
+Test Cases/spolight/E-tron/Animations/DoorsF,Chrome 71.0.3578.98,,2019-01-03 14:41:14,2019-01-03 14:41:20,5.328s,PASSED
+"click(findTestObject(""E-tron/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_""))",Chrome 71.0.3578.98,,2019-01-03 14:41:15,2019-01-03 14:41:15,0.075s,PASSED
+"click(findTestObject(""E-tron/Animations/Page_SpotLight  Shutter/p_DoorsF""))",Chrome 71.0.3578.98,,2019-01-03 14:41:15,2019-01-03 14:41:15,0.088s,PASSED
+"delay(5, STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-03 14:41:15,2019-01-03 14:41:20,5.001s,PASSED
+,,,,,,
+Test Cases/spolight/E-tron/Animations/DoorsR,Chrome 71.0.3578.98,,2019-01-03 14:41:20,2019-01-03 14:41:25,5.343s,PASSED
+"click(findTestObject(""E-tron/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_""))",Chrome 71.0.3578.98,,2019-01-03 14:41:20,2019-01-03 14:41:20,0.079s,PASSED
+"click(findTestObject(""E-tron/Animations/Page_SpotLight  Shutter/p_DoorsR""))",Chrome 71.0.3578.98,,2019-01-03 14:41:20,2019-01-03 14:41:20,0.083s,PASSED
+"delay(5, STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-03 14:41:20,2019-01-03 14:41:25,5.001s,PASSED
+,,,,,,
+Test Cases/spolight/E-tron/Animations/DRLights,Chrome 71.0.3578.98,,2019-01-03 14:41:25,2019-01-03 14:41:30,5.348s,PASSED
+"click(findTestObject(""E-tron/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_""))",Chrome 71.0.3578.98,,2019-01-03 14:41:25,2019-01-03 14:41:25,0.089s,PASSED
+"click(findTestObject(""E-tron/Animations/Page_SpotLight  Shutter/p_DRLights""))",Chrome 71.0.3578.98,,2019-01-03 14:41:25,2019-01-03 14:41:25,0.087s,PASSED
+"delay(5, STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-03 14:41:25,2019-01-03 14:41:30,5.001s,PASSED
+,,,,,,
+Test Cases/spolight/E-tron/Animations/Engine,Chrome 71.0.3578.98,,2019-01-03 14:41:30,2019-01-03 14:41:36,5.315s,PASSED
+"click(findTestObject(""E-tron/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_""))",Chrome 71.0.3578.98,,2019-01-03 14:41:31,2019-01-03 14:41:31,0.082s,PASSED
+"click(findTestObject(""E-tron/Animations/Page_SpotLight  Shutter/p_Engine""))",Chrome 71.0.3578.98,,2019-01-03 14:41:31,2019-01-03 14:41:31,0.093s,PASSED
+"delay(5, STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-03 14:41:31,2019-01-03 14:41:36,5.002s,PASSED
+,,,,,,
+Test Cases/spolight/E-tron/Animations/Headlights,Chrome 71.0.3578.98,,2019-01-03 14:41:36,2019-01-03 14:41:41,5.342s,PASSED
+"click(findTestObject(""E-tron/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_""))",Chrome 71.0.3578.98,,2019-01-03 14:41:36,2019-01-03 14:41:36,0.084s,PASSED
+"click(findTestObject(""E-tron/Animations/Page_SpotLight  Shutter/p_Headlights""))",Chrome 71.0.3578.98,,2019-01-03 14:41:36,2019-01-03 14:41:36,0.084s,PASSED
+"delay(5, STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-03 14:41:36,2019-01-03 14:41:41,5.002s,PASSED
+,,,,,,
+Test Cases/spolight/E-tron/Animations/InteriorLights,Chrome 71.0.3578.98,,2019-01-03 14:41:41,2019-01-03 14:41:46,5.363s,PASSED
+"click(findTestObject(""E-tron/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_""))",Chrome 71.0.3578.98,,2019-01-03 14:41:41,2019-01-03 14:41:41,0.092s,PASSED
+"click(findTestObject(""E-tron/Animations/Page_SpotLight  Shutter/p_InteriorLights""))",Chrome 71.0.3578.98,,2019-01-03 14:41:41,2019-01-03 14:41:41,0.091s,PASSED
+"delay(5, STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-03 14:41:41,2019-01-03 14:41:46,5.001s,PASSED
+,,,,,,
+Test Cases/spolight/E-tron/Animations/MainLights,Chrome 71.0.3578.98,,2019-01-03 14:41:47,2019-01-03 14:41:48,1.230s,FAILED
+"click(findTestObject(""E-tron/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_""))",Chrome 71.0.3578.98,,2019-01-03 14:41:47,2019-01-03 14:41:47,0.089s,PASSED
+"click(findTestObject(""E-tron/Animations/Page_SpotLight  Shutter/p_MainLights""))",Chrome 71.0.3578.98,,2019-01-03 14:41:47,2019-01-03 14:41:48,0.984s,FAILED
+,,,,,,
+Test Cases/spolight/E-tron/Animations/NightLights,Chrome 71.0.3578.98,,2019-01-03 14:41:48,2019-01-03 14:41:48,0.705s,FAILED
+"click(findTestObject(""E-tron/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_""))",Chrome 71.0.3578.98,,2019-01-03 14:41:48,2019-01-03 14:41:48,0.572s,FAILED
+,,,,,,
+Test Cases/spolight/E-tron/Animations/SoundSystem,Chrome 71.0.3578.98,,2019-01-03 14:41:48,2019-01-03 14:41:49,0.712s,FAILED
+"click(findTestObject(""E-tron/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_""))",Chrome 71.0.3578.98,,2019-01-03 14:41:49,2019-01-03 14:41:49,0.580s,FAILED
+,,,,,,
+Test Cases/spolight/E-tron/Animations/Trunk,Chrome 71.0.3578.98,,2019-01-03 14:41:49,2019-01-03 14:41:50,0.697s,FAILED
+"click(findTestObject(""E-tron/Animations/Page_SpotLight  Shutter/img_Multi Shot_ZlUiIconButton_""))",Chrome 71.0.3578.98,,2019-01-03 14:41:49,2019-01-03 14:41:50,0.561s,FAILED

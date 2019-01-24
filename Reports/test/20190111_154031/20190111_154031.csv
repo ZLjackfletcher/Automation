@@ -1,0 +1,60 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+test,Chrome 71.0.3578.98,,2019-01-11 15:40:33,2019-01-11 15:41:17,44.268s,FAILED
+,,,,,,
+Test Cases/spolight/logging in/login,Chrome 71.0.3578.98,,2019-01-11 15:40:33,2019-01-11 15:40:40,7.113s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-11 15:40:33,2019-01-11 15:40:36,2.983s,PASSED
+"navigateToUrl(""https://spotlightsuite.com/auth/login"")",Chrome 71.0.3578.98,,2019-01-11 15:40:36,2019-01-11 15:40:37,1.547s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-11 15:40:37,2019-01-11 15:40:39,1.156s,PASSED
+waitForPageLoad(0),Chrome 71.0.3578.98,,2019-01-11 15:40:39,2019-01-11 15:40:39,0.054s,PASSED
+"click(findTestObject(""Page_SpotLight  Login/input_Email_undefined-Email-un""))",Chrome 71.0.3578.98,,2019-01-11 15:40:39,2019-01-11 15:40:39,0.108s,PASSED
+"sendKeys(findTestObject(""Page_SpotLight  Login/input_Email_undefined-Email-un""), findTestData(""login spotlight"").getValue(1, 1))",Chrome 71.0.3578.98,,2019-01-11 15:40:39,2019-01-11 15:40:40,0.718s,PASSED
+"click(findTestObject(""Page_SpotLight  Login/input_Password_undefined-Passw""))",Chrome 71.0.3578.98,,2019-01-11 15:40:40,2019-01-11 15:40:40,0.077s,PASSED
+"sendKeys(findTestObject(""Page_SpotLight  Login/input_Password_undefined-Passw""), findTestData(""login spotlight"").getValue(2, 1))",Chrome 71.0.3578.98,,2019-01-11 15:40:40,2019-01-11 15:40:40,0.142s,PASSED
+"click(findTestObject(""Page_SpotLight  Login/input_Forgot my password_Butto""))",Chrome 71.0.3578.98,,2019-01-11 15:40:40,2019-01-11 15:40:40,0.090s,PASSED
+,,,,,,
+Test Cases/spolight/service choice/Lamborghini (prelive),Chrome 71.0.3578.98,,2019-01-11 15:40:40,2019-01-11 15:40:42,1.984s,PASSED
+"click(findTestObject(""Page_SpotLight  Login/button_ZLCC Stage""))",Chrome 71.0.3578.98,,2019-01-11 15:40:40,2019-01-11 15:40:41,0.636s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-11 15:40:41,2019-01-11 15:40:42,1.032s,PASSED
+"click(findTestObject(""Services/li_Lamborghini (prelive)""))",Chrome 71.0.3578.98,,2019-01-11 15:40:42,2019-01-11 15:40:42,0.093s,PASSED
+"click(findTestObject(""Page_SpotLight  Login/input_ZLCC Stage_Button__Super""))",Chrome 71.0.3578.98,,2019-01-11 15:40:42,2019-01-11 15:40:42,0.091s,PASSED
+,,,,,,
+Test Cases/spolight/Select Your Application/Bespoke - Brochure,Chrome 71.0.3578.98,,2019-01-11 15:40:42,2019-01-11 15:40:44,2.528s,PASSED
+"click(findTestObject(""pick your apps/Page_SpotLight  Select App - bespoke borchure/a""))",Chrome 71.0.3578.98,,2019-01-11 15:40:42,2019-01-11 15:40:43,1.256s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-11 15:40:43,2019-01-11 15:40:44,1.004s,PASSED
+"click(findTestObject(""pick your apps/Page_SpotLight  Select App - bespoke borchure/button_Open Application""))",Chrome 71.0.3578.98,,2019-01-11 15:40:44,2019-01-11 15:40:44,0.154s,PASSED
+,,,,,,
+Test Cases/spolight/cars/Huracan,Chrome 71.0.3578.98,,2019-01-11 15:40:44,2019-01-11 15:40:45,0.308s,PASSED
+"click(findTestObject(""Page_SpotLight  Select Car/div_Huracan""))",Chrome 71.0.3578.98,,2019-01-11 15:40:44,2019-01-11 15:40:45,0.164s,PASSED
+,,,,,,
+Test Cases/spolight/Bespoke Brochure Panels/Ray-Traced Reflections/enable,Chrome 71.0.3578.98,,2019-01-11 15:40:45,2019-01-11 15:40:45,0.359s,PASSED
+"click(findTestObject(""Bespoke_Brochure/Ray-traced Reflections/Page_SpotLight  Bespoke BROCHURE/button""))",Chrome 71.0.3578.98,,2019-01-11 15:40:45,2019-01-11 15:40:45,0.095s,PASSED
+"click(findTestObject(""Bespoke_Brochure/Ray-traced Reflections/Page_SpotLight  Bespoke BROCHURE/div_Enabled""))",Chrome 71.0.3578.98,,2019-01-11 15:40:45,2019-01-11 15:40:45,0.142s,PASSED
+,,,,,,
+Test Cases/spolight/Bespoke Brochure Panels/Render Preset/150 DPI,Chrome 71.0.3578.98,,2019-01-11 15:40:45,2019-01-11 15:40:46,0.618s,FAILED
+"click(findTestObject(""Bespoke_Brochure/Render preset/Page_SpotLight  Bespoke BROCHURE/button""))",Chrome 71.0.3578.98,,2019-01-11 15:40:45,2019-01-11 15:40:46,0.488s,FAILED
+,,,,,,
+Test Cases/spolight/Huracan/Animations/DoorFL,Chrome 71.0.3578.98,,2019-01-11 15:40:46,2019-01-11 15:40:54,7.949s,PASSED
+"click(findTestObject(""aventador/shutter/Animations/img_Multi Shot_ZlUiIconButton_""))",Chrome 71.0.3578.98,,2019-01-11 15:40:46,2019-01-11 15:40:48,2.715s,PASSED
+"click(findTestObject(""Huracan/Animations/Page_SpotLight  Shutter/p_DoorFL""))",Chrome 71.0.3578.98,,2019-01-11 15:40:48,2019-01-11 15:40:49,0.117s,PASSED
+"delay(5, STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-11 15:40:49,2019-01-11 15:40:54,5.002s,PASSED
+,,,,,,
+Test Cases/spolight/Huracan/Animations/DoorFR,Chrome 71.0.3578.98,,2019-01-11 15:40:54,2019-01-11 15:40:59,5.418s,PASSED
+"click(findTestObject(""aventador/shutter/Animations/img_Multi Shot_ZlUiIconButton_""))",Chrome 71.0.3578.98,,2019-01-11 15:40:54,2019-01-11 15:40:54,0.085s,PASSED
+"click(findTestObject(""Huracan/Animations/Page_SpotLight  Shutter/p_DoorFR""))",Chrome 71.0.3578.98,,2019-01-11 15:40:54,2019-01-11 15:40:54,0.084s,PASSED
+"delay(5, STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-11 15:40:54,2019-01-11 15:40:59,5.001s,PASSED
+,,,,,,
+Test Cases/spolight/Huracan/Animations/Trunk,Chrome 71.0.3578.98,,2019-01-11 15:40:59,2019-01-11 15:41:04,5.310s,PASSED
+"click(findTestObject(""aventador/shutter/Animations/img_Multi Shot_ZlUiIconButton_""))",Chrome 71.0.3578.98,,2019-01-11 15:40:59,2019-01-11 15:40:59,0.095s,PASSED
+"click(findTestObject(""Huracan/Animations/Page_SpotLight  Shutter/p_Trunk""))",Chrome 71.0.3578.98,,2019-01-11 15:40:59,2019-01-11 15:40:59,0.090s,PASSED
+"delay(5, STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-11 15:40:59,2019-01-11 15:41:04,5.001s,PASSED
+,,,,,,
+Test Cases/spolight/Huracan/Cameras/Interior Cameras/Interior_Beauty_01,Chrome 71.0.3578.98,,2019-01-11 15:41:04,2019-01-11 15:41:06,1.435s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-11 15:41:04,2019-01-11 15:41:05,1.003s,PASSED
+"click(findTestObject(""aventador/shutter/Cameras/interior cameras/img_Multi Shot_ZlUiIconButton_""))",Chrome 71.0.3578.98,,2019-01-11 15:41:05,2019-01-11 15:41:06,0.171s,PASSED
+"click(findTestObject(""Huracan/Cameras/Interior Cameras/Page_SpotLight  Shutter (1)/p_Interior_Beauty_01""))",Chrome 71.0.3578.98,,2019-01-11 15:41:06,2019-01-11 15:41:06,0.123s,PASSED
+,,,,,,
+Test Cases/spolight/Huracan/Environments/AD - Personam,Chrome 71.0.3578.98,,2019-01-11 15:41:06,2019-01-11 15:41:16,10.322s,PASSED
+"waitForElementClickable(findTestObject(""aventador/shutter/envs/img_Multi Shot_ZlUiIconButton_""), 0)",Chrome 71.0.3578.98,,2019-01-11 15:41:06,2019-01-11 15:41:06,0.050s,PASSED
+"click(findTestObject(""aventador/shutter/envs/img_Multi Shot_ZlUiIconButton_""))",Chrome 71.0.3578.98,,2019-01-11 15:41:06,2019-01-11 15:41:06,0.075s,PASSED
+"click(findTestObject(""aventador/shutter/envs/p_AD_Personam""))",Chrome 71.0.3578.98,,2019-01-11 15:41:06,2019-01-11 15:41:06,0.083s,PASSED
+delay(10),Chrome 71.0.3578.98,,2019-01-11 15:41:06,2019-01-11 15:41:16,10.000s,PASSED

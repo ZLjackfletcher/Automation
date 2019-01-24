@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+test,,,2019-01-14 12:29:53,2019-01-14 12:29:57,3.414s,FAILED
+,,,,,,
+Test Cases/spolight/logging in/login,,,2019-01-14 12:29:53,2019-01-14 12:29:54,1.114s,FAILED
+"openBrowser("""")",,,2019-01-14 12:29:54,2019-01-14 12:29:54,0.878s,FAILED
+,,,,,,
+Test Cases/spolight/service choice/Lamborghini (prelive),,,2019-01-14 12:29:54,2019-01-14 12:29:55,0.123s,FAILED
+"click(findTestObject(""Page_SpotLight  Login/button_ZLCC Stage""))",,,2019-01-14 12:29:55,2019-01-14 12:29:55,0.025s,FAILED
+,,,,,,
+Test Cases/spolight/Select Your Application/Bespoke - Brochure,,,2019-01-14 12:29:55,2019-01-14 12:29:55,0.085s,FAILED
+"click(findTestObject(""pick your apps/Page_SpotLight  Select App - bespoke borchure/a""))",,,2019-01-14 12:29:55,2019-01-14 12:29:55,0.006s,FAILED
+,,,,,,
+Test Cases/spolight/cars/Huracan,,,2019-01-14 12:29:55,2019-01-14 12:29:55,0.083s,FAILED
+"click(findTestObject(""Page_SpotLight  Select Car/div_Huracan""))",,,2019-01-14 12:29:55,2019-01-14 12:29:55,0.005s,FAILED
+,,,,,,
+Test Cases/spolight/Bespoke Brochure Panels/Ray-Traced Reflections/enable,,,2019-01-14 12:29:55,2019-01-14 12:29:55,0.124s,FAILED
+"waitForElementClickable(findTestObject(""Bespoke_Brochure/Ray-traced Reflections/Page_SpotLight  Bespoke BROCHURE/button""), 0)",,,2019-01-14 12:29:55,2019-01-14 12:29:55,0.020s,FAILED
+,,,,,,
+Test Cases/spolight/Bespoke Brochure Panels/Render Preset/150 DPI,,,2019-01-14 12:29:55,2019-01-14 12:29:55,0.094s,FAILED
+"waitForElementClickable(findTestObject(""Bespoke_Brochure/Render preset/Page_SpotLight  Bespoke BROCHURE/button""), 0)",,,2019-01-14 12:29:55,2019-01-14 12:29:55,0.005s,FAILED
+,,,,,,
+Test Cases/spolight/Huracan/Animations/DoorFL,,,2019-01-14 12:29:55,2019-01-14 12:29:55,0.115s,FAILED
+"click(findTestObject(""aventador/shutter/Animations/img_Multi Shot_ZlUiIconButton_""))",,,2019-01-14 12:29:55,2019-01-14 12:29:55,0.010s,FAILED
+,,,,,,
+Test Cases/spolight/Huracan/Animations/DoorFR,,,2019-01-14 12:29:55,2019-01-14 12:29:55,0.104s,FAILED
+"click(findTestObject(""aventador/shutter/Animations/img_Multi Shot_ZlUiIconButton_""))",,,2019-01-14 12:29:55,2019-01-14 12:29:55,0.005s,FAILED
+,,,,,,
+Test Cases/spolight/Huracan/Animations/Trunk,,,2019-01-14 12:29:55,2019-01-14 12:29:55,0.095s,FAILED
+"click(findTestObject(""aventador/shutter/Animations/img_Multi Shot_ZlUiIconButton_""))",,,2019-01-14 12:29:55,2019-01-14 12:29:55,0.005s,FAILED
+,,,,,,
+Test Cases/spolight/Huracan/Cameras/Interior Cameras/Interior_Beauty_01,,,2019-01-14 12:29:55,2019-01-14 12:29:56,1.113s,FAILED
+delay(1),,,2019-01-14 12:29:55,2019-01-14 12:29:56,1.013s,PASSED
+"click(findTestObject(""aventador/shutter/Cameras/interior cameras/img_Multi Shot_ZlUiIconButton_""))",,,2019-01-14 12:29:56,2019-01-14 12:29:56,0.009s,FAILED
+,,,,,,
+Test Cases/spolight/Huracan/Environments/AD - Personam,,,2019-01-14 12:29:56,2019-01-14 12:29:57,0.127s,FAILED
+"waitForElementClickable(findTestObject(""aventador/shutter/envs/img_Multi Shot_ZlUiIconButton_""), 0)",,,2019-01-14 12:29:57,2019-01-14 12:29:57,0.018s,FAILED
